@@ -65,7 +65,7 @@ El proyecto fue desarrollado siguiendo un flujo de trabajo de análisis explorat
 |----------|-------------|
 | `caso1.ipynb` | Desarrollo completo del análisis. |
 | `caso_1_limpios.csv` | Base de datos utilizada durante el análisis. |
-| `caso_1_limpio.sql` | Script para crear e importar la base de datos en MySQL. |
+| `caso_1_limpio.sql` | Script opcional de la base de datos en MySQL. |
 | `requirements.txt` | Librerías necesarias para ejecutar el proyecto. |
 | `img/` | Imágenes de las visualizaciones utilizadas en el proyecto. |
 
@@ -96,17 +96,19 @@ Como resultado del análisis se proponen las siguientes acciones:
 
 # Cómo ejecutar el proyecto
 
-1. Crear la base de datos utilizando el archivo `banco.sql`.
-2. Importar la información desde el archivo `banco.csv`.
-3. Instalar las dependencias:
+1. Clonar este repositorio.
+
+2. Instalar las dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Abrir el archivo `caso1.ipynb` utilizando Jupyter Lab.
+3. Abrir el archivo `caso1.ipynb` utilizando JupyterLab o Jupyter Notebook.
 
----
+4. Ejecutar las celdas del notebook. El proyecto utiliza el archivo `caso_1_limpios.csv` incluido en este repositorio, por lo que no es necesario configurar una base de datos.
+```
+
 
 # Autor
 
