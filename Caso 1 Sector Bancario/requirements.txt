@@ -1,0 +1,9 @@
+pandas
+numpy
+bokeh
+jupyterlab
+scipy
+scikit-learn
+beautifulsoup4
+ipython
+nbformat

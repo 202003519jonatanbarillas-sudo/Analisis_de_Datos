@@ -1,0 +1,86 @@
+\documentclass[
+    11pt,
+    a4paper,
+    oneside
+]{scrreprt}
+
+% ===============================
+% PAQUETES Y ESTILOS
+% ===============================
+\input{variables}
+\input{encabezado}
+\input{comandos}
+\usepackage{estilos}
+
+\begin{document}
+
+%===============================
+% PORTADA
+%===============================
+\input{portada}
+
+%===============================
+% RESUMEN
+%===============================
+\chapter*{Resumen Ejecutivo}
+\addcontentsline{toc}{chapter}{Resumen Ejecutivo}
+
+\ResumenEjecutivo
+
+\tableofcontents
+
+\clearpage
+
+%===============================
+\chapter{Introducción}
+
+\Introduccion
+
+%===============================
+\chapter{Objetivos}
+
+\Objetivos
+
+%===============================
+\chapter{Descripción del Dataset}
+
+\DescripcionDataset
+
+%===============================
+\chapter{Metodología}
+
+\Metodologia
+
+%===============================
+\chapter{Preparación de Datos}
+
+\PreparacionDatos
+
+%===============================
+\chapter{Resultados}
+
+\Resultados
+
+%===============================
+\chapter{Hallazgos}
+
+\Hallazgos
+
+%===============================
+\chapter{Conclusiones}
+
+\Conclusiones
+
+%===============================
+\chapter{Recomendaciones}
+
+\Recomendaciones
+
+%===============================
+\appendix
+
+\chapter{Anexos}
+
+\Anexos
+
+\end{document}
