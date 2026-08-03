@@ -1,4 +1,4 @@
-# Caso 2 - Análisis Exploratorio de los Factores Asociados a la Mora Crediticia
+# Caso 2 - Análisis Exploratorio de los Factores Asociados a la Mora Crediticia (Actualización pendienete) (Actualización de la autmatización pendienete)
 
 ## Descripción
 

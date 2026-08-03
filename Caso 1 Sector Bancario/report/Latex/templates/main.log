@@ -1,0 +1,1075 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  3 AUG 2026 09:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-04-28>
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.
+def
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
+\g__graphics_track_int=\count272
+\g__pdfannot_backend_int=\count273
+\g__pdfannot_backend_link_int=\count274
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1.
+LaTeX Font Info:    ... okay on input line 1.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[1] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: prueba
+
+! LaTeX Error: File `prueba.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: main
+(main.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[2
+
+
+! Undefined control sequence.
+<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \clearpage
+              
+? 
+] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: main
+(main.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[3
+
+
+! Undefined control sequence.
+<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \clearpage
+              
+? 
+] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.12 \section
+             *{Calidad de los datos}
+? 
+
+! LaTeX Error: File `../../generated/calidad_datos.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.16 \section
+             *{Principales hallazgos}
+? 
+
+! LaTeX Error: File `../../generated/hallazgos.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+! Interruption.
+\@missingfileerror ... (Default extension: #2)^^J}
+                                                  \message {Enter file name:...
+l.18 \input{../../generated/hallazgos.tex}
+                                          
+? 
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? 
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.20 \section
+             *{Conclusión ejecutiva}
+? 
+
+! LaTeX Error: File `../../generated/conclusion_ejecutiva.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored))
+(sections/introduccion.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Introducción}
+? 
+) (sections/objetivos.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Objetivos}
+? 
+! Undefined control sequence.
+l.3 \section
+            *{Objetivo General}
+? 
+! Undefined control sequence.
+l.7 \section
+            *{Objetivos Específicos}
+? 
+) (sections/dataset.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Descripción del Dataset}
+? 
+! Undefined control sequence.
+l.7 \section
+            {Origen del conjunto de datos}
+? 
+! Undefined control sequence.
+l.15 \section
+             {Información general}
+? 
+
+! LaTeX Error: File `../../generated/info_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.23 \section
+             {Estructura del conjunto de datos}
+? 
+
+! LaTeX Error: File `../../generated/tipos_variables.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: main
+(main.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[4
+
+
+! Undefined control sequence.
+<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \clearpage
+              
+? 
+] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: main
+(main.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[5
+
+
+! Undefined control sequence.
+<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \clearpage
+              
+? 
+] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: main
+(main.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[6
+
+
+! Undefined control sequence.
+<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \clearpage
+              
+? 
+] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.12 \section
+             *{Calidad de los datos}
+? 
+
+! LaTeX Error: File `../../generated/calidad_datos.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: main
+(main.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+? 
+(portada.tex
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+? 
+! Undefined control sequence.
+l.7 {\Huge
+          \bfseries \TituloCaso\par}
+? 
+! Undefined control sequence.
+l.7 {\Huge\bfseries \TituloCaso
+                               \par}
+? 
+! Undefined control sequence.
+l.11 {\Large
+             \SubtituloCaso\par}
+? 
+! Undefined control sequence.
+l.11 {\Large \SubtituloCaso
+                           \par}
+? 
+! Undefined control sequence.
+l.15 {\Large
+             Informe Técnico}
+? 
+! Undefined control sequence.
+l.19 {\large
+             \Autor}
+? 
+! Undefined control sequence.
+l.19 {\large \Autor
+                   }
+? 
+! Undefined control sequence.
+l.23 {\large
+             \Fecha}
+? 
+! Undefined control sequence.
+l.23 {\large \Fecha
+                   }
+? 
+! Undefined control sequence.
+l.27 Versión \Version
+                     
+? 
+
+! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{titlepage}
+                    
+? 
+)
+! Undefined control sequence.
+l.5 \tableofcontents
+                    
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \clearpage
+              
+? 
+[7
+
+
+! Undefined control sequence.
+<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
+                                                  }{}\protected@file@percent }
+l.7 \clearpage
+              
+? 
+] (sections/resumen.tex
+! Undefined control sequence.
+l.1 \chapter
+            *{Resumen Ejecutivo}
+? 
+! Undefined control sequence.
+l.4 \section
+            *{Objetivo del análisis}
+? 
+! Undefined control sequence.
+l.8 \section
+            *{Información general del dataset}
+? 
+
+! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.12 \section
+             *{Calidad de los datos}
+? 
+
+! LaTeX Error: File `../../generated/calidad_datos.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.16 \section
+             *{Principales hallazgos}
+? 
+
+! LaTeX Error: File `../../generated/hallazgos.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.20 \section
+             *{Conclusión ejecutiva}
+? 
+
+! LaTeX Error: File `../../generated/conclusion_ejecutiva.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored))
+(sections/introduccion.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Introducción}
+? 
+) (sections/objetivos.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Objetivos}
+? 
+! Undefined control sequence.
+l.3 \section
+            *{Objetivo General}
+? 
+! Undefined control sequence.
+l.7 \section
+            *{Objetivos Específicos}
+? 
+) (sections/dataset.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Descripción del Dataset}
+? 
+! Undefined control sequence.
+l.7 \section
+            {Origen del conjunto de datos}
+? 
+! Undefined control sequence.
+l.15 \section
+             {Información general}
+? 
+
+! LaTeX Error: File `../../generated/info_dataset.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.23 \section
+             {Estructura del conjunto de datos}
+? 
+! Interruption.
+<argument> ...../../generated/tipos_variables.tex}
+                                                  
+l.25 \input{../../generated/tipos_variables.tex}
+                                                
+? 
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? 
+
+! LaTeX Error: File `../../generated/tipos_variables.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
+! Undefined control sequence.
+l.31 \section
+             {Descripción de las variables}
+? exit
+ 
+Here is how much of TeX's memory you used:
+ 355 strings out of 402799
+ 8981 string characters out of 5445490
+ 437896 words of memory out of 5000000
+ 29247 multiletter control sequences out of 15000+600000
+ 627737 words of font info for 42 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 81i,5n,65p,827b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on main.pdf (7 pages).
