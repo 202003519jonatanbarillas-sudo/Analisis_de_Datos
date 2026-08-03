@@ -1,6 +1,20 @@
+\documentclass[
+    11pt,
+    a4paper,
+    oneside
+]{scrreprt}
+
+%===============================
+% CONFIGURACIÓN
+%===============================
+\input{variables}
+\input{encabezado}
+\input{comandos}
+\usepackage{estilos}
+
 \begin{document}
 
-\input{portada}
+\input{sections/portada}
 
 \tableofcontents
 
@@ -13,7 +27,6 @@
 \input{sections/metodologia}
 \input{sections/preparacion}
 \input{sections/resultados}
-\input{sections/hallazgos}
 \input{sections/conclusiones}
 \input{sections/recomendaciones}
 

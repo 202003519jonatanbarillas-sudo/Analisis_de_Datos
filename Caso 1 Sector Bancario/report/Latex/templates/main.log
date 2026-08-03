@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  3 AUG 2026 09:33
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  3 AUG 2026 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,1070 +6,1036 @@ entering extended mode
 (main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-04-28>
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
+Document Class: scrreprt 2026/02/02 v3.49.2 KOMA-Script document class (report)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-dependent
+ basics and keyval usage)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.
+sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
+))) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box53
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 143.
+Package scrreprt Info: You've used standard option `11pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=11pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=11pt' there
+(scrreprt)             instead of `11pt', too.
+Class scrreprt Info: You've used standard option `oneside'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `twoside=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `twoside=false' there
+(scrreprt)           instead of `oneside', too.
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2710.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.cl
+o
+File: scrsize11pt.clo 2026/02/02 v3.49.2 KOMA-Script font size class option (11
+pt)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2026/02/02 v3.49.2 KOMA-Script package (type area)
+\ta@bcor=\skip50
+\ta@div=\count272
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1810.
+)
+\c@part=\count273
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\scr@dte@chapter@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5934.
+\scr@dte@section@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5945.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5945.
+\scr@dte@part@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5954.
+\scr@dte@subsection@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5964.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5964.
+\scr@dte@subsubsection@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5974.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5974.
+\scr@dte@paragraph@maxnumwidth=\skip60
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5985.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5985.
+\scr@dte@subparagraph@maxnumwidth=\skip61
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5995.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5995.
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
+\c@pti@nb@sid@b@x=\box54
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7225.
+\scr@dte@figure@maxnumwidth=\skip64
+\c@figure=\count280
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7238.
+\scr@dte@table@maxnumwidth=\skip65
+\c@table=\count281
+Class scrreprt Info: Redefining `\numberline' on input line 7409.
+\bibindent=\dimen150
+) (variables.tex) (encabezado.tex) (comandos.tex) (estilos.sty
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks18
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekey
+s.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.st
+y
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitles
+tring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count285
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count289
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count290
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen162
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.st
+y
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count291
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count295
+\HyField@AnnotCount=\count296
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilech
+eck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecoun
+ter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip66
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+==> First Aid for cleveref.sty applied!
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen165
+\lightrulewidth=\dimen166
+\cmidrulewidth=\dimen167
+\belowrulesep=\dimen168
+\belowbottomsep=\dimen169
+\aboverulesep=\dimen170
+\abovetopsep=\dimen171
+\cmidrulesep=\dimen172
+\cmidrulekern=\dimen173
+\defaultaddspace=\dimen174
+\@cmidla=\count299
+\@cmidlb=\count300
+\@aboverulesep=\dimen175
+\@belowrulesep=\dimen176
+\@thisruleclass=\count301
+\@lastruleclass=\count302
+\@thisrulewidth=\dimen177
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen178
+\ar@mcellbox=\box56
+\extrarowheight=\dimen179
+\NC@list=\toks19
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box57
+)
+\TX@col@width=\dimen180
+\TX@old@table=\dimen181
+\TX@old@col=\dimen182
+\TX@target=\dimen183
+\TX@delta=\dimen184
+\TX@cols=\count303
+\TX@ftn=\toks20
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count304
+\LTcapwidth=\dimen185
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count305
+\LT@rows=\count306
+\c@LT@tables=\count307
+\c@LT@chunks=\count308
+\LT@p@ftn=\toks21
+)
+Class scrreprt Info: longtable captions redefined on input line 41.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count309
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box63
+)
+\tc@llx=\dimen186
+\tc@lly=\dimen187
+\tc@urx=\dimen188
+\tc@ury=\dimen189
+Package trimclip Info: Using driver 'tc-xetex.def'.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen190
+\adjbox@Height=\dimen191
+\adjbox@Depth=\dimen192
+\adjbox@Totalheight=\dimen193
+\adjbox@pwidth=\dimen194
+\adjbox@pheight=\dimen195
+\adjbox@pdepth=\dimen196
+\adjbox@ptotalheight=\dimen197
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count310
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box64
+\sift@deathcycles=\count311
+\@vwid@loff=\dimen198
+\@vwid@roff=\dimen199
+)
+==> First Aid for varwidth.sty applied!
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+Package tocbasic Info: Loading of class-dependent code for package caption3
+(tocbasic)             prevented on line 50.
+
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen256
+\captionmargin=\dimen257
+\caption@leftmargin=\dimen258
+\caption@rightmargin=\dimen259
+\caption@width=\dimen260
+\caption@indent=\dimen261
+\caption@parindent=\dimen262
+\caption@hangindent=\dimen263
+)
+\c@caption@flags=\count312
+\c@continuedfloat=\count313
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count314
+\float@exts=\toks24
+\float@box=\box65
+\@float@everytoks=\toks25
+\@floatcapt=\box66
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip73
+\enit@outerparindent=\dimen264
+\enit@toks=\toks26
+\enit@inbox=\box67
+\enit@count@id=\count315
+\enitdp@description=\count316
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpa
+ge.sty
+Package: scrlayer-scrpage 2026/02/02 v3.49.2 KOMA-Script package (end user inte
+rface for scrlayer)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
+Package: scrlayer 2026/02/02 v3.49.2 KOMA-Script package (defining layers and p
+age styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
+9.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1106.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 140.
+)
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 15.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.
 def
 File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
-\g__graphics_track_int=\count272
-\g__pdfannot_backend_int=\count273
-\g__pdfannot_backend_link_int=\count274
-) (main.aux)
+\g__graphics_track_int=\count317
+\g__pdfannot_backend_int=\count318
+\g__pdfannot_backend_link_int=\count319
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-xetex.def
+File: bkm-xetex.def 2026-05-21 v1.32 bookmark driver for xetex (HO)
+\BKM@id=\count320
+))
+(main.aux
+
+LaTeX Warning: Label `tab:table' multiply defined.
+
+
+LaTeX Warning: Label `tab:table@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1.
-LaTeX Font Info:    ... okay on input line 1.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+Package scrbase Info: activating english \abstractname on input line 15.
+Package scrbase Info: activating english \partname on input line 15.
+Package scrbase Info: activating english \chaptername on input line 15.
+Package scrbase Info: activating english \appendixname on input line 15.
+Package scrbase Info: activating english \figurename on input line 15.
+Package scrbase Info: activating english \tablename on input line 15.
+Package scrbase Info: activating english \contentsname on input line 15.
+Package scrbase Info: activating english \listfigurename on input line 15.
+Package scrbase Info: activating english \listtablename on input line 15.
+Package scrbase Info: activating english \bibname on input line 15.
+Package scrbase Info: activating english \indexname on input line 15.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(79.6678pt, 438.17227pt, 79.6678pt)
+* v-part:(T,H,B)=(79.6678pt, 685.71124pt, 79.6678pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=438.17227pt
+* \textheight=685.71124pt
+* \oddsidemargin=7.39781pt
+* \evensidemargin=7.39781pt
+* \topmargin=-30.0022pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 15.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(sections/portada.tex
+! Undefined control sequence.
+l.23 {\large \Empresa
+                     \par}
+? 
+[1
 
 
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+]) (main.toc)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 21.
+ [2
+
+] (sections/resumen.tex (../../../text/contexto.tex)
+(../../../text/objetivo.tex) (../../../tables/table.tex
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{table}
+                
+? 
+) [3
+
+
+]) (sections/introduccion.tex [4]
+chapter 1.
+(../../../text/contexto.tex)) (sections/objetivos.tex [5
+
+]
+chapter 2.
+(../../../text/objetivo.tex)) (sections/dataset.tex [6
+
+]
+chapter 3.
+(../../../tables/table.tex
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{table}
+                
+? 
+)) (sections/metodologia.tex [7
+
+]
+chapter 4.
+[8
+
+]) (sections/preparacion.tex [9]
+chapter 5.
+
+Overfull \hbox (4.47055pt too wide) in paragraph at lines 11--12
+\TU/lmr/m/n/10.95 Durante esta fase se realizaron actividades de revisión y val
+idación de la información disponible
+ []
+
+) (sections/resultados.tex [10
+
+] [11]
+chapter 6.
+(../../../text/pregunta_1.tex) (../../../tables/table_ques1.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques1}}
                                                   
-l.1 \begin{document}
-                    
 ? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 24.
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.24 ...tado de la variable: \texttt{table_ques1}}
                                                   
-l.1 \begin{titlepage}
-                     
 ? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques1}}
                                                   
-l.29 \end{titlepage}
-                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ...tado de la variable: \texttt{table_ques1}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques1}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.24 ...tado de la variable: \texttt{table_ques1}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques1}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ...tado de la variable: \texttt{table_ques1}}
+                                                  
+? 
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{table}
+                
 ? 
 )
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
+File: ../../../charts/chart_ques1.png Graphic file (type bmp)
+<../../../charts/chart_ques1.png>
+ [12
 
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+] (../../../text/analisis_1.tex) [13] (../../../text/pregunta_2.tex)
+(../../../tables/table_ques2.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...tado de la variable: \texttt{table_ques2}}
                                                   
-l.7 \clearpage
-              
 ? 
-[1] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
-? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
-? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
-? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: prueba
-
-! LaTeX Error: File `prueba.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: main
-(main.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.18 ...tado de la variable: \texttt{table_ques2}}
                                                   
-l.1 \begin{document}
-                    
 ? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...tado de la variable: \texttt{table_ques2}}
                                                   
-l.1 \begin{titlepage}
-                     
 ? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 ...tado de la variable: \texttt{table_ques2}}
                                                   
-l.29 \end{titlepage}
-                    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...tado de la variable: \texttt{table_ques2}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.18 ...tado de la variable: \texttt{table_ques2}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...tado de la variable: \texttt{table_ques2}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.18 ...tado de la variable: \texttt{table_ques2}}
+                                                  
 ? 
 )
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
+File: ../../../charts/chart_ques2.png Graphic file (type bmp)
+<../../../charts/chart_ques2.png>
+ (../../../text/analisis_2.tex) [14
 
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+] [15] (../../../text/pregunta_3.tex)
+(../../../tables/table_ques3.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...tado de la variable: \texttt{table_ques3}}
                                                   
-l.7 \clearpage
-              
 ? 
-[2
-
-
-! Undefined control sequence.
-<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
-                                                  }{}\protected@file@percent }
-l.7 \clearpage
-              
-? 
-] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
-? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
-? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
-? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: main
-(main.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.16 ...tado de la variable: \texttt{table_ques3}}
                                                   
-l.1 \begin{document}
-                    
 ? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...tado de la variable: \texttt{table_ques3}}
                                                   
-l.1 \begin{titlepage}
-                     
 ? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing } inserted.
+<inserted text> 
+                }
+l.16 ...tado de la variable: \texttt{table_ques3}}
                                                   
-l.29 \end{titlepage}
-                    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...tado de la variable: \texttt{table_ques3}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.16 ...tado de la variable: \texttt{table_ques3}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...tado de la variable: \texttt{table_ques3}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.16 ...tado de la variable: \texttt{table_ques3}}
+                                                  
 ? 
 )
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
+File: ../../../charts/chart_ques3.png Graphic file (type bmp)
+<../../../charts/chart_ques3.png>
+ (../../../text/analisis_3.tex) [16
 
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+] (../../../text/pregunta_4.tex)
+(../../../tables/table_ques4.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques4}}
                                                   
-l.7 \clearpage
-              
 ? 
-[3
-
-
-! Undefined control sequence.
-<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
-                                                  }{}\protected@file@percent }
-l.7 \clearpage
-              
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.12 \section
-             *{Calidad de los datos}
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-
-! LaTeX Error: File `../../generated/calidad_datos.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.16 \section
-             *{Principales hallazgos}
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-
-! LaTeX Error: File `../../generated/hallazgos.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-! Interruption.
-\@missingfileerror ... (Default extension: #2)^^J}
-                                                  \message {Enter file name:...
-l.18 \input{../../generated/hallazgos.tex}
-                                          
-? 
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-H for help, X to quit.
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ...tado de la variable: \texttt{table_ques4}}
+                                                  
 ? 
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.20 \section
-             *{Conclusión ejecutiva}
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{table}
+                
 ? 
+)
+File: ../../../charts/chart_ques4.png Graphic file (type bmp)
+<../../../charts/chart_ques4.png>
+ (../../../text/analisis_4.tex) [17
 
-! LaTeX Error: File `../../generated/conclusion_ejecutiva.tex' not found.
+] [18] (../../../text/pregunta_5.tex)
+(../../../tables/table_ques5.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ...tado de la variable: \texttt{table_ques5}}
+                                                  
+? 
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{table}
+                
+? 
+)
+File: ../../../charts/chart_ques5.png Graphic file (type bmp)
+<../../../charts/chart_ques5.png>
+ (../../../text/analisis_5.tex)) (sections/conclusiones.tex [19
+
+] [20]
+chapter 7.
+(../../../text/conclusiones.tex)) (sections/recomendaciones.tex [21
+
+]
+chapter 8.
+
+! LaTeX Error: File `../../text/recomendaciones.tex' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
 Enter file name: 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored))
-(sections/introduccion.tex
-! Undefined control sequence.
-l.1 \chapter
-            {Introducción}
-? 
-) (sections/objetivos.tex
-! Undefined control sequence.
-l.1 \chapter
-            {Objetivos}
-? 
-! Undefined control sequence.
-l.3 \section
-            *{Objetivo General}
-? 
-! Undefined control sequence.
-l.7 \section
-            *{Objetivos Específicos}
-? 
-) (sections/dataset.tex
-! Undefined control sequence.
-l.1 \chapter
-            {Descripción del Dataset}
-? 
-! Undefined control sequence.
-l.7 \section
-            {Origen del conjunto de datos}
-? 
-! Undefined control sequence.
-l.15 \section
-             {Información general}
-? 
+(sections/anexos.tex [22
 
-! LaTeX Error: File `../../generated/info_dataset.tex' not found.
+]
+chapter A.
+) [23
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+] (main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-04-28>
+ ***********
 
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.23 \section
-             {Estructura del conjunto de datos}
-? 
 
-! LaTeX Error: File `../../generated/tipos_variables.tex' not found.
+LaTeX Warning: There were multiply-defined labels.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: main
-(main.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{document}
-                    
-? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{titlepage}
-                     
-? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{titlepage}
-                    
-? 
-)
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \clearpage
-              
-? 
-[4
-
-
-! Undefined control sequence.
-<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
-                                                  }{}\protected@file@percent }
-l.7 \clearpage
-              
-? 
-] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
-? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
-? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
-? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: main
-(main.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{document}
-                    
-? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{titlepage}
-                     
-? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{titlepage}
-                    
-? 
-)
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \clearpage
-              
-? 
-[5
-
-
-! Undefined control sequence.
-<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
-                                                  }{}\protected@file@percent }
-l.7 \clearpage
-              
-? 
-] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
-? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
-? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
-? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: main
-(main.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{document}
-                    
-? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{titlepage}
-                     
-? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{titlepage}
-                    
-? 
-)
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \clearpage
-              
-? 
-[6
-
-
-! Undefined control sequence.
-<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
-                                                  }{}\protected@file@percent }
-l.7 \clearpage
-              
-? 
-] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
-? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
-? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
-? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.12 \section
-             *{Calidad de los datos}
-? 
-
-! LaTeX Error: File `../../generated/calidad_datos.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: main
-(main.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{document}
-                    
-? 
-(portada.tex
-
-! LaTeX Error: Environment titlepage undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{titlepage}
-                     
-? 
-! Undefined control sequence.
-l.7 {\Huge
-          \bfseries \TituloCaso\par}
-? 
-! Undefined control sequence.
-l.7 {\Huge\bfseries \TituloCaso
-                               \par}
-? 
-! Undefined control sequence.
-l.11 {\Large
-             \SubtituloCaso\par}
-? 
-! Undefined control sequence.
-l.11 {\Large \SubtituloCaso
-                           \par}
-? 
-! Undefined control sequence.
-l.15 {\Large
-             Informe Técnico}
-? 
-! Undefined control sequence.
-l.19 {\large
-             \Autor}
-? 
-! Undefined control sequence.
-l.19 {\large \Autor
-                   }
-? 
-! Undefined control sequence.
-l.23 {\large
-             \Fecha}
-? 
-! Undefined control sequence.
-l.23 {\large \Fecha
-                   }
-? 
-! Undefined control sequence.
-l.27 Versión \Version
-                     
-? 
-
-! LaTeX Error: \begin{document} on input line 1 ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{titlepage}
-                    
-? 
-)
-! Undefined control sequence.
-l.5 \tableofcontents
-                    
-? 
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \clearpage
-              
-? 
-[7
-
-
-! Undefined control sequence.
-<write> ... {chapter}{Resumen Ejecutivo}{\thepage 
-                                                  }{}\protected@file@percent }
-l.7 \clearpage
-              
-? 
-] (sections/resumen.tex
-! Undefined control sequence.
-l.1 \chapter
-            *{Resumen Ejecutivo}
-? 
-! Undefined control sequence.
-l.4 \section
-            *{Objetivo del análisis}
-? 
-! Undefined control sequence.
-l.8 \section
-            *{Información general del dataset}
-? 
-
-! LaTeX Error: File `../../generated/resumen_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.12 \section
-             *{Calidad de los datos}
-? 
-
-! LaTeX Error: File `../../generated/calidad_datos.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.16 \section
-             *{Principales hallazgos}
-? 
-
-! LaTeX Error: File `../../generated/hallazgos.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.20 \section
-             *{Conclusión ejecutiva}
-? 
-
-! LaTeX Error: File `../../generated/conclusion_ejecutiva.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored))
-(sections/introduccion.tex
-! Undefined control sequence.
-l.1 \chapter
-            {Introducción}
-? 
-) (sections/objetivos.tex
-! Undefined control sequence.
-l.1 \chapter
-            {Objetivos}
-? 
-! Undefined control sequence.
-l.3 \section
-            *{Objetivo General}
-? 
-! Undefined control sequence.
-l.7 \section
-            *{Objetivos Específicos}
-? 
-) (sections/dataset.tex
-! Undefined control sequence.
-l.1 \chapter
-            {Descripción del Dataset}
-? 
-! Undefined control sequence.
-l.7 \section
-            {Origen del conjunto de datos}
-? 
-! Undefined control sequence.
-l.15 \section
-             {Información general}
-? 
-
-! LaTeX Error: File `../../generated/info_dataset.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.23 \section
-             {Estructura del conjunto de datos}
-? 
-! Interruption.
-<argument> ...../../generated/tipos_variables.tex}
-                                                  
-l.25 \input{../../generated/tipos_variables.tex}
-                                                
-? 
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-H for help, X to quit.
-? 
-
-! LaTeX Error: File `../../generated/tipos_variables.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored)
-! Undefined control sequence.
-l.31 \section
-             {Descripción de las variables}
-? exit
- 
+ ) 
 Here is how much of TeX's memory you used:
- 355 strings out of 402799
- 8981 string characters out of 5445490
- 437896 words of memory out of 5000000
- 29247 multiletter control sequences out of 15000+600000
- 627737 words of font info for 42 fonts, out of 8000000 for 9000
+ 19185 strings out of 402799
+ 379468 string characters out of 5445490
+ 950397 words of memory out of 5000000
+ 47799 multiletter control sequences out of 15000+600000
+ 632056 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 81i,5n,65p,827b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on main.pdf (7 pages).
+ 108i,19n,131p,11209b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (23 pages).

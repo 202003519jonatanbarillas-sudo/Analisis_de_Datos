@@ -1,4 +1,9 @@
 %==================================================
+% ESTILOS.STY
+% Configuración general del reporte
+%==================================================
+
+%==================================================
 % CONFIGURACIÓN DE PÁGINA
 %==================================================
 
@@ -11,40 +16,54 @@
 ]{geometry}
 
 %==================================================
-% PAQUETES
+% PAQUETES BÁSICOS
 %==================================================
 
-% Imágenes
+% Gráficos
 \RequirePackage{graphicx}
 
 % Colores
 \RequirePackage{xcolor}
 
-% Tablas
+% Hipervínculos
+\RequirePackage[hidelinks]{hyperref}
+
+% Referencias inteligentes
+\RequirePackage{cleveref}
+
+%==================================================
+% TABLAS
+%==================================================
+
 \RequirePackage{booktabs}
 \RequirePackage{tabularx}
 \RequirePackage{longtable}
 \RequirePackage{array}
+\RequirePackage{adjustbox}
 
-% Figuras
+%==================================================
+% FIGURAS
+%==================================================
+
 \RequirePackage{caption}
+\RequirePackage{float}
 
-% Hipervínculos
-\RequirePackage[hidelinks]{hyperref}
+%==================================================
+% LISTAS
+%==================================================
 
-% Espaciado
-\RequirePackage{setspace}
-
-% Listas
 \RequirePackage{enumitem}
 
-% Referencias cruzadas
-\RequirePackage{cleveref}
+%==================================================
+% ESPACIADO
+%==================================================
 
-% Personalización de títulos
-\RequirePackage{titlesec}
+\RequirePackage{setspace}
 
-% Encabezado y pie (KOMA-Script)
+%==================================================
+% ENCABEZADO Y PIE (KOMA)
+%==================================================
+
 \RequirePackage{scrlayer-scrpage}
 
 %==================================================
@@ -53,10 +72,10 @@
 
 \definecolor{CorporateBlue}{RGB}{25,55,109}
 \definecolor{CorporateGray}{RGB}{90,90,90}
-\definecolor{LightGray}{RGB}{230,230,230}
+\definecolor{LightGray}{RGB}{235,235,235}
 
 %==================================================
-% ESPACIADO DEL DOCUMENTO
+% CONFIGURACIÓN GENERAL
 %==================================================
 
 \onehalfspacing
@@ -78,7 +97,7 @@
 \pagestyle{scrheadings}
 
 %==================================================
-% TÍTULOS
+% TÍTULOS (KOMA-Script)
 %==================================================
 
 \setkomafont{chapter}{\Huge\bfseries\color{CorporateBlue}}
@@ -86,11 +105,36 @@
 \setkomafont{subsection}{\large\bfseries}
 
 %==================================================
-% FIGURAS
+% CAPTIONS
 %==================================================
 
 \captionsetup{
     labelfont=bf,
     font=small,
     justification=centering
+}
+
+%==================================================
+% LISTAS
+%==================================================
+
+\setlist[itemize]{
+    itemsep=0.3em,
+    topsep=0.5em
+}
+
+\setlist[enumerate]{
+    itemsep=0.3em,
+    topsep=0.5em
+}
+
+%==================================================
+% HIPERVÍNCULOS
+%==================================================
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=CorporateBlue,
+    citecolor=CorporateBlue,
+    urlcolor=CorporateBlue
 }

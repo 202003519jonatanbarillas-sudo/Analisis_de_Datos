@@ -1,35 +1,35 @@
 \chapter{Preparación y Transformación de los Datos}
 
-Con base en el diagnóstico inicial, se realizó un proceso de preparación del conjunto de datos utilizando MySQL como sistema gestor de bases de datos. Esta etapa tuvo como objetivo corregir inconsistencias, estandarizar la información y obtener un conjunto de datos confiable para el análisis exploratorio.
+El conjunto de datos utilizado en este estudio fue sometido a un proceso de preparación previo al análisis con el propósito de garantizar su calidad, consistencia y adecuación para responder las preguntas planteadas. Esta etapa fue desarrollada utilizando MySQL como sistema gestor de bases de datos.
 
 %==================================================
-% IMPORTACIÓN
+% PREPARACIÓN DE LOS DATOS
 %==================================================
 
-\section{Importación a MySQL}
+\section{Preparación del conjunto de datos}
 
-\input{../../generated/importacion_mysql.tex}
+Durante esta fase se realizaron actividades de revisión y validación de la información disponible con el fin de identificar posibles inconsistencias que pudieran afectar el análisis posterior.
 
 %==================================================
-% LIMPIEZA
+% LIMPIEZA DE LOS DATOS
 %==================================================
 
-\section{Limpieza de datos}
+\section{Limpieza de los datos}
 
-\input{../../generated/limpieza_sql.tex}
+El proceso de limpieza comprendió la corrección de inconsistencias, el tratamiento de registros duplicados cuando fue necesario, la validación de valores faltantes y la estandarización de los formatos de las variables utilizadas durante el análisis.
 
 %==================================================
 % TRANSFORMACIONES
 %==================================================
 
-\section{Transformaciones aplicadas}
+\section{Transformaciones realizadas}
 
-\input{../../generated/transformaciones_sql.tex}
+Posteriormente se efectuaron las transformaciones necesarias para obtener un conjunto de datos preparado para el análisis. Estas transformaciones incluyeron la creación de nuevas variables cuando fue requerido, conversiones de tipos de datos, normalización de formatos y cualquier otra adecuación necesaria según las características del caso de estudio.
 
 %==================================================
-% VISTA FINAL
+% CONJUNTO FINAL
 %==================================================
 
-\section{Generación del conjunto de datos final}
+\section{Conjunto de datos preparado}
 
-\input{../../generated/exportacion_sql.tex}
+Una vez finalizado el proceso de preparación y transformación, el conjunto de datos fue exportado y validado mediante un análisis exploratorio adicional para confirmar que la información se encontraba en condiciones adecuadas para el desarrollo del análisis presentado en este informe.
