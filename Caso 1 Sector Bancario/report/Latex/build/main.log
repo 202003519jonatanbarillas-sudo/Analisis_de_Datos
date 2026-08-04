@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  3 AUG 2026 17:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  4 AUG 2026 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -155,6 +155,8 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrreprt Info: Redefining `\numberline' on input line 7409.
 \bibindent=\dimen150
 ) (variables.tex) (encabezado.tex) (comandos.tex) (estilos.sty
+Package: estilos 2026/08/04 Estilo Ejecutivo para Informes
+
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
 
@@ -178,6 +180,63 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@dimlist=\toks18
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+\MT@toks=\toks21
+\MT@tempbox=\box55
+\MT@count=\count286
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks22
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen159
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count287
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xetex.
+def
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip66
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -194,8 +253,8 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -214,6 +273,23 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen162
+\ar@mcellbox=\box56
+\extrarowheight=\dimen163
+\NC@list=\toks23
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box57
+)
+\everycr=\toks24
+\minrowclearance=\skip69
+\rownum=\count288
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
@@ -258,25 +334,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count285
-) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count286
-)
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+\c@section@level=\count289
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen161
-\Hy@linkcounter=\count287
-\Hy@pagecounter=\count288
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+\@linkdim=\dimen164
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count289
+\Hy@SavedSpaceFactor=\count292
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
@@ -288,14 +361,14 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count290
+\c@Hy@tempcnt=\count293
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen162
+\XeTeXLinkMargin=\dimen165
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -305,9 +378,9 @@ y
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count291
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
+\Fld@menulength=\count294
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
 Package hyperref Info: Hyper figures OFF on input line 6091.
 Package hyperref Info: Link nesting OFF on input line 6096.
 Package hyperref Info: Hyper index ON on input line 6099.
@@ -315,18 +388,18 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring OFF on input line 6111.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count292
-\c@Item=\count293
-\c@Hfootnote=\count294
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
-\pdfm@box=\box55
-\c@Hy@AnnotLevel=\count295
-\HyField@AnnotCount=\count296
-\Fld@listcount=\count297
-\c@bookmark@seq@number=\count298
+\pdfm@box=\box58
+\c@Hy@AnnotLevel=\count298
+\HyField@AnnotCount=\count299
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilech
 eck.sty
@@ -339,7 +412,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip70
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -356,123 +429,7 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
 ==> First Aid for cleveref.sty applied!
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen165
-\lightrulewidth=\dimen166
-\cmidrulewidth=\dimen167
-\belowrulesep=\dimen168
-\belowbottomsep=\dimen169
-\aboverulesep=\dimen170
-\abovetopsep=\dimen171
-\cmidrulesep=\dimen172
-\cmidrulekern=\dimen173
-\defaultaddspace=\dimen174
-\@cmidla=\count299
-\@cmidlb=\count300
-\@aboverulesep=\dimen175
-\@belowrulesep=\dimen176
-\@thisruleclass=\count301
-\@lastruleclass=\count302
-\@thisrulewidth=\dimen177
-)
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen178
-\ar@mcellbox=\box56
-\extrarowheight=\dimen179
-\NC@list=\toks19
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box57
-)
-\TX@col@width=\dimen180
-\TX@old@table=\dimen181
-\TX@old@col=\dimen182
-\TX@target=\dimen183
-\TX@delta=\dimen184
-\TX@cols=\count303
-\TX@ftn=\toks20
-)
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip69
-\LTright=\skip70
-\LTpre=\skip71
-\LTpost=\skip72
-\LTchunksize=\count304
-\LTcapwidth=\dimen185
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
-\LT@gbox=\box62
-\LT@cols=\count305
-\LT@rows=\count306
-\c@LT@tables=\count307
-\c@LT@chunks=\count308
-\LT@p@ftn=\toks21
-)
-Class scrreprt Info: longtable captions redefined on input line 41.
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
-Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
-)
-\XKV@depth=\count309
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
-Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
-Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box63
-)
-\tc@llx=\dimen186
-\tc@lly=\dimen187
-\tc@urx=\dimen188
-\tc@ury=\dimen189
-Package trimclip Info: Using driver 'tc-xetex.def'.
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
-File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
-))
-\adjbox@Width=\dimen190
-\adjbox@Height=\dimen191
-\adjbox@Depth=\dimen192
-\adjbox@Totalheight=\dimen193
-\adjbox@pwidth=\dimen194
-\adjbox@pheight=\dimen195
-\adjbox@pdepth=\dimen196
-\adjbox@ptotalheight=\dimen197
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count310
-)
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box64
-\sift@deathcycles=\count311
-\@vwid@loff=\dimen198
-\@vwid@roff=\dimen199
-)
-==> First Aid for varwidth.sty applied!
-) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 Package tocbasic Info: Loading of class-dependent code for package caption3
@@ -481,39 +438,35 @@ Package tocbasic Info: Loading of class-dependent code for package caption3
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen256
-\captionmargin=\dimen257
-\caption@leftmargin=\dimen258
-\caption@rightmargin=\dimen259
-\caption@width=\dimen260
-\caption@indent=\dimen261
-\caption@parindent=\dimen262
-\caption@hangindent=\dimen263
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
 )
-\c@caption@flags=\count312
-\c@continuedfloat=\count313
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
 Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-))
+)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count314
-\float@exts=\toks24
-\float@box=\box65
-\@float@everytoks=\toks25
-\@floatcapt=\box66
+\c@float@type=\count304
+\float@exts=\toks25
+\float@box=\box59
+\@float@everytoks=\toks26
+\@floatcapt=\box60
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip73
-\enit@outerparindent=\dimen264
-\enit@toks=\toks26
-\enit@inbox=\box67
-\enit@count@id=\count315
-\enitdp@description=\count316
+\labelindent=\skip71
+\enit@outerparindent=\dimen176
+\enit@toks=\toks27
+\enit@inbox=\box61
+\enit@count@id=\count305
+\enitdp@description=\count306
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -531,8 +484,113 @@ Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
 )
 Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
 (scrlayer-scrpage)             alias to `pageheadfoot' on input line 1106.
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen177
+\lightrulewidth=\dimen178
+\cmidrulewidth=\dimen179
+\belowrulesep=\dimen180
+\belowbottomsep=\dimen181
+\aboverulesep=\dimen182
+\abovetopsep=\dimen183
+\cmidrulesep=\dimen184
+\cmidrulekern=\dimen185
+\defaultaddspace=\dimen186
+\@cmidla=\count307
+\@cmidlb=\count308
+\@aboverulesep=\dimen187
+\@belowrulesep=\dimen188
+\@thisruleclass=\count309
+\@lastruleclass=\count310
+\@thisrulewidth=\dimen189
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 140.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
+\TX@cols=\count311
+\TX@ftn=\toks28
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip72
+\LTright=\skip73
+\LTpre=\skip74
+\LTpost=\skip75
+\LTchunksize=\count312
+\LTcapwidth=\dimen195
+\LT@head=\box62
+\LT@firsthead=\box63
+\LT@foot=\box64
+\LT@lastfoot=\box65
+\LT@gbox=\box66
+\LT@cols=\count313
+\LT@rows=\count314
+\c@LT@tables=\count315
+\c@LT@chunks=\count316
+\LT@p@ftn=\toks29
+)
+Class scrreprt Info: longtable captions redefined on input line 45.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count317
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box67
+)
+\tc@llx=\dimen196
+\tc@lly=\dimen197
+\tc@urx=\dimen198
+\tc@ury=\dimen199
+Package trimclip Info: Using driver 'tc-xetex.def'.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen256
+\adjbox@Height=\dimen257
+\adjbox@Depth=\dimen258
+\adjbox@Totalheight=\dimen259
+\adjbox@pwidth=\dimen260
+\adjbox@pheight=\dimen261
+\adjbox@pdepth=\dimen262
+\adjbox@ptotalheight=\dimen263
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count318
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box68
+\sift@deathcycles=\count319
+\@vwid@loff=\dimen264
+\@vwid@roff=\dimen265
+)
+==> First Aid for varwidth.sty applied!
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 147.
 )
 Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           Using `bookmark' together with `hyperref' is recommended,
@@ -548,22 +606,21 @@ Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.
 def
 File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
-\g__graphics_track_int=\count317
-\g__pdfannot_backend_int=\count318
-\g__pdfannot_backend_link_int=\count319
+\g__graphics_track_int=\count320
+\g__pdfannot_backend_int=\count321
+\g__pdfannot_backend_link_int=\count322
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-xetex.def
 File: bkm-xetex.def 2026-05-21 v1.32 bookmark driver for xetex (HO)
-\BKM@id=\count320
+\BKM@id=\count323
 ))
-(main.aux
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 15
+.
 
-LaTeX Warning: Label `tab:table' multiply defined.
-
-
-LaTeX Warning: Label `tab:table@cref' multiply defined.
-
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -597,7 +654,6 @@ Package scrbase Info: activating english \listfigurename on input line 15.
 Package scrbase Info: activating english \listtablename on input line 15.
 Package scrbase Info: activating english \bibname on input line 15.
 Package scrbase Info: activating english \indexname on input line 15.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -606,16 +662,16 @@ Package scrbase Info: activating english \indexname on input line 15.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(79.6678pt, 438.17227pt, 79.6678pt)
-* v-part:(T,H,B)=(79.6678pt, 685.71124pt, 79.6678pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 688.5567pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=438.17227pt
-* \textheight=685.71124pt
-* \oddsidemargin=7.39781pt
-* \evensidemargin=7.39781pt
-* \topmargin=-30.0022pt
-* \headheight=17.0pt
+* \textwidth=455.24411pt
+* \textheight=688.5567pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.31174pt
+* \headheight=24.0pt
 * \headsep=20.40001pt
 * \topskip=11.0pt
 * \footskip=47.6pt
@@ -632,410 +688,390 @@ Package scrbase Info: activating english \indexname on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\big@size=\dimen266
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen267
+\MT@vwid@rightmargin=\dimen268
+LaTeX Info: Redefining \microtypecontext on input line 15.
+Package microtype Info: Applying patch `item' on input line 15.
+Package microtype Info: Applying patch `toc' on input line 15.
+Package microtype Info: Applying patch `eqnum' on input line 15.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 15.
+
+Package microtype Info: Applying patch `verbatim' on input line 15.
+LaTeX Info: Redefining \microtypesetup on input line 15.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
 Package hyperref Info: Link coloring ON on input line 15.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-(sections/portada.tex
-! Undefined control sequence.
-l.23 {\large \Empresa
-                     \par}
-? 
-[1
+
+(sections/portada.tex [1
 
 
 
-]) (main.toc)
+])
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 20
+.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 20.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 20.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 22.88956pt on input line 20.
+Package tocbasic Info: character protrusion at toc deactivated on input line 20
+.
+
+No file main.toc.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
- [2
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 22.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 22.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 2
+2.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
+22.
 
-] (sections/resumen.tex (../../../text/contexto.tex)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+22.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
+22.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
+22.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 9.19998pt on input line 22.
+
+[2
+
+
+] (sections/resumen.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 8.
+ (../../../text/contexto.tex)
 (../../../text/objetivo.tex) (../../../tables/table.tex
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.27 \end{table}
-                
-? 
-) [3
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7  & cliente_
+               id & fecha & agencia & edad & segmento & ingreso & saldo & pr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7  & cliente_id &
+                    fecha & agencia & edad & segmento & ingreso & saldo & pr...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...mento & ingreso & saldo & producto & grupo_
+                                                  edad \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \midrule
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 23.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 26.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 27.
+)) [3
 
 
-]) (sections/introduccion.tex [4]
+] [4] (sections/introduccion.tex
 chapter 1.
-(../../../text/contexto.tex)) (sections/objetivos.tex [5
+(../../../text/contexto.tex)) [5
 
-]
+
+] (sections/objetivos.tex
 chapter 2.
-(../../../text/objetivo.tex)) (sections/dataset.tex [6
+(../../../text/objetivo.tex)) [6
 
-]
+
+] (sections/dataset.tex
 chapter 3.
 (../../../tables/table.tex
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.27 \end{table}
-                
-? 
-)) (sections/metodologia.tex [7
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7  & cliente_
+               id & fecha & agencia & edad & segmento & ingreso & saldo & pr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7  & cliente_id &
+                    fecha & agencia & edad & segmento & ingreso & saldo & pr...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...mento & ingreso & saldo & producto & grupo_
+                                                  edad \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 \midrule
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)) [7
+
+
+] (sections/metodologia.tex
 chapter 4.
-[8
+) [8
 
-]) (sections/preparacion.tex [9]
+
+] (sections/preparacion.tex
 chapter 5.
 
-Overfull \hbox (4.47055pt too wide) in paragraph at lines 11--12
-\TU/lmr/m/n/10.95 Durante esta fase se realizaron actividades de revisión y val
-idación de la información disponible
+Overfull \hbox (1.88014pt too wide) in paragraph at lines 11--12
+[]\T1/ppl/m/n/10.95 Durante esta fase se re-alizaron ac-tivi-dades de re-visión
+ y val-i-dación de la in-for-ma-ción disponible
  []
 
-) (sections/resultados.tex [10
+) [9
 
-] [11]
+
+] (sections/resultados.tex
 chapter 6.
+
+Overfull \hbox (3.71999pt too wide) in paragraph at lines 3--4
+[]\T1/ppl/m/n/10.95 En este capí-tulo se pre-sen-tan los re-sul-ta-dos obtenido
+s para cada una de las pre-gun-tas planteadas
+ []
+
 (../../../text/pregunta_1.tex) (../../../tables/table_ques1.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
+l.7  & fecha & saldo & fecha_
+                             str \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ...tado de la variable: \texttt{table_ques1}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.27 \end{table}
-                
-? 
+l.8 \midrule
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 )
 File: ../../../charts/chart_ques1.png Graphic file (type bmp)
 <../../../charts/chart_ques1.png>
- [12
+ [10
 
-] (../../../text/analisis_1.tex) [13] (../../../text/pregunta_2.tex)
-(../../../tables/table_ques2.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.18 ...tado de la variable: \texttt{table_ques2}}
-                                                  
-? 
-)
+
+]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 22.
+ (../../../text/analisis_1.tex) [11] (../../../text/pregunta_2.tex)
+(../../../tables/table_ques2.tex)
 File: ../../../charts/chart_ques2.png Graphic file (type bmp)
 <../../../charts/chart_ques2.png>
- (../../../text/analisis_2.tex) [14
+ (../../../text/analisis_2.tex) [12
 
-] [15] (../../../text/pregunta_3.tex)
-(../../../tables/table_ques3.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.16 ...tado de la variable: \texttt{table_ques3}}
-                                                  
-? 
-)
+] [13]
+(../../../text/pregunta_3.tex) (../../../tables/table_ques3.tex)
 File: ../../../charts/chart_ques3.png Graphic file (type bmp)
 <../../../charts/chart_ques3.png>
- (../../../text/analisis_3.tex) [16
+
+(../../../text/analisis_3.tex) [14
 
 ] (../../../text/pregunta_4.tex)
 (../../../tables/table_ques4.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
+l.7  & cliente_
+               id & ingreso & saldo & segmento \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ...tado de la variable: \texttt{table_ques4}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.27 \end{table}
-                
-? 
+l.7  & cliente_id &
+                    ingreso & saldo & segmento \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 )
 File: ../../../charts/chart_ques4.png Graphic file (type bmp)
 <../../../charts/chart_ques4.png>
- (../../../text/analisis_4.tex) [17
+ (../../../text/analisis_4.tex) [15
 
-] [18] (../../../text/pregunta_5.tex)
+] [16] (../../../text/pregunta_5.tex)
 (../../../tables/table_ques5.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
+l.7  & grupo_
+             edad & saldo \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ...tado de la variable: \texttt{table_ques5}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.27 \end{table}
-                
-? 
+l.7  & grupo_edad &
+                    saldo \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 )
 File: ../../../charts/chart_ques5.png Graphic file (type bmp)
 <../../../charts/chart_ques5.png>
- (../../../text/analisis_5.tex)) (sections/conclusiones.tex [19
+ (../../../text/analisis_5.tex)) [17
 
-] [20]
+] [18] (sections/conclusiones.tex
 chapter 7.
-(../../../text/conclusiones.tex)) (sections/recomendaciones.tex [21
 
-]
+Overfull \hbox (5.81102pt too wide) in paragraph at lines 3--4
+\T1/ppl/m/n/10.95 tas sin-te-ti-zan los re-sul-ta-dos obtenidos du-rante el es-
+tu-dio y re-spon-den a las pre-gun-tas planteadas,
+ []
+
+(../../../text/conclusiones.tex)) [19
+
+
+] (sections/recomendaciones.tex
 chapter 8.
+(../../../text/recomendaciones.tex
+Overfull \hbox (4.9721pt too wide) in paragraph at lines 3--4
+[]\T1/ppl/m/n/10.95 Realizar análi-sis es-pecí-fi-cos por su-cur-sal y seg-ment
+o de clientes para iden-ti-ficar opor-tu-nidades
+ []
 
-! LaTeX Error: File `../../text/recomendaciones.tex' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+Overfull \hbox (8.70657pt too wide) in paragraph at lines 4--5
+[]\T1/ppl/m/n/10.95 Desarrollar pro-duc-tos y cam-pañas com-er-ciales ori-en-ta
+das a los difer-entes seg-men-tos de clientes
+ []
 
-Enter file name: 
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex File ignored))
-(sections/anexos.tex [22
+)) [20
+
+
+] (sections/anexos.tex
+chapter A.
+) [21
+
 
 ]
-chapter A.
-) [23
-
-] (main.aux)
+(C:\Users\hp\OneDrive\Documentos\GitHub\Data Analist\Caso 1 Sector Bancario\rep
+ort\latex\build\main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-04-28>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 19185 strings out of 402799
- 379468 string characters out of 5445490
- 950397 words of memory out of 5000000
- 47799 multiletter control sequences out of 15000+600000
- 632056 words of font info for 69 fonts, out of 8000000 for 9000
+ 21508 strings out of 402799
+ 418279 string characters out of 5445490
+ 1008644 words of memory out of 5000000
+ 50094 multiletter control sequences out of 15000+600000
+ 670491 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,19n,131p,11209b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,21n,107p,11209b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (23 pages).
+Output written on C:\Users\hp\OneDrive\Documentos\GitHub\Data Analist\Caso 1 Se
+ctor Bancario\report\latex\build\main.pdf (21 pages).

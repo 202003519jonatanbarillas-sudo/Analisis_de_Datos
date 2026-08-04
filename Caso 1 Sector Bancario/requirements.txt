@@ -1,9 +1,12 @@
 pandas
 numpy
-bokeh
-jupyterlab
 scipy
 scikit-learn
+bokeh
+selenium
+webdriver-manager
 beautifulsoup4
+lxml
 ipython
+jupyterlab
 nbformat

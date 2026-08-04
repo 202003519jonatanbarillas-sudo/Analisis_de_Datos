@@ -1,10 +1,10 @@
-# Caso 1 - Análisis del Comportamiento de los Saldos Bancarios durante 2025 (Actualización de la autmatización pendienete)
+# Caso 1 - Análisis del Comportamiento de los Saldos Bancarios durante 2025
 
 ## Descripción
 
 Este proyecto presenta un análisis exploratorio de datos (Exploratory Data Analysis - EDA) desarrollado para una institución bancaria ficticia con el objetivo de comprender el comportamiento de los saldos bancarios de sus clientes durante el año 2025.
 
-El análisis fue realizado utilizando Python, MySQL y Bokeh, aplicando técnicas de limpieza, exploración y visualización de datos para obtener información que apoye la toma de decisiones comerciales.
+El proyecto fue desarrollado utilizando **Python, MySQL, Bokeh y LaTeX**, implementando un flujo de trabajo que abarca desde la preparación de los datos hasta la generación automática de un informe técnico, permitiendo obtener información útil para apoyar la toma de decisiones comerciales.
 
 ---
 
@@ -34,17 +34,16 @@ Durante el análisis se buscó responder las siguientes preguntas:
 
 # Metodología
 
-El proyecto fue desarrollado siguiendo un flujo de trabajo de análisis exploratorio de datos (EDA), compuesto por las siguientes etapas:
+El proyecto fue desarrollado siguiendo un flujo de trabajo orientado a garantizar la calidad de los datos y la reproducibilidad del análisis, compuesto por las siguientes etapas:
 
-1. Comprensión del problema de negocio y definición de las preguntas de análisis.
-2. Creación e importación de la base de datos en MySQL.
-3. Limpieza, validación y preparación de los datos utilizando consultas SQL.
-4. Exportación del conjunto de datos limpio a formato CSV.
-5. Importación del archivo CSV en Python mediante Pandas.
-6. Análisis exploratorio de los datos utilizando estadísticas descriptivas y agregaciones.
-7. Construcción de visualizaciones interactivas con Bokeh para responder las preguntas de negocio.
-8. Interpretación de los resultados obtenidos.
-9. Elaboración de conclusiones y recomendaciones orientadas a la toma de decisiones.
+1. Obtención del conjunto de datos.
+2. Evaluación inicial mediante un análisis exploratorio (EDA) para conocer el estado de la información.
+3. Limpieza, transformación y preparación de los datos utilizando MySQL.
+4. Exportación del conjunto de datos preparado.
+5. Validación del conjunto de datos mediante un segundo análisis exploratorio.
+6. Desarrollo del análisis para responder las preguntas de negocio.
+7. Generación automática de tablas, figuras y textos utilizados en el informe.
+8. Elaboración automática del informe técnico en LaTeX.
 
 ---
 
@@ -53,21 +52,56 @@ El proyecto fue desarrollado siguiendo un flujo de trabajo de análisis explorat
 - Python
 - Pandas
 - NumPy
+- SciPy
+- Scikit-Learn
 - MySQL
 - Bokeh
-- Jupyter Lab
+- LaTeX (XeLaTeX)
+- Jupyter Notebook
 
 ---
 
-# Archivos del proyecto
+# Estructura del proyecto
 
-| Archivo | Descripción |
-|----------|-------------|
-| `caso1.ipynb` | Desarrollo completo del análisis. |
-| `caso_1_limpios.csv` | Base de datos utilizada durante el análisis. |
-| `caso_1_limpio.sql` | Script opcional de la base de datos en MySQL. |
-| `requirements.txt` | Librerías necesarias para ejecutar el proyecto. |
-| `img/` | Imágenes de las visualizaciones utilizadas en el proyecto. |
+| Archivo / Carpeta  | Descripción                                                                                                     |
+| ------------------ | --------------------------------------------------------------------------------------------------------------- |
+| `notebooks/`       | Contiene los notebooks del proyecto, incluyendo el desarrollo completo del caso de estudio y el EDA automático. |
+| `data/`            | Conjunto de datos utilizado durante el análisis.                                                                |
+| `charts/`          | Gráficas exportadas automáticamente para el informe.                                                            |
+| `tables/`          | Tablas exportadas automáticamente en formato LaTeX.                                                             |
+| `text/`            | Textos exportados automáticamente para el informe técnico.                                                      |
+| `utils/`           | Funciones reutilizables para exportación de recursos y generación automática del reporte.                       |
+| `report/`          | Reportes generados por el proyecto, incluyendo el EDA en HTML y el informe técnico en LaTeX/PDF.                |
+| `README.md`        | Documentación general del proyecto.                                                                             |
+| `requirements.txt` | Dependencias necesarias para ejecutar el proyecto.                                                              |
+
+---
+
+# Automatización
+
+El proyecto incorpora un proceso de automatización para la generación del informe técnico. Al finalizar la ejecución del análisis se realizan automáticamente las siguientes tareas:
+
+- Exportación de tablas en formato LaTeX.
+- Exportación de figuras utilizadas en el análisis.
+- Exportación de los textos empleados en el informe.
+- Verificación de la estructura del proyecto.
+- Compilación automática del documento LaTeX.
+- Generación del informe técnico final en formato PDF.
+
+Esta arquitectura permite separar el análisis de datos de la documentación, facilitando la reutilización del flujo de trabajo en futuros casos de estudio.
+---
+
+# Informe generado
+
+Como resultado del proceso automatizado se genera un informe técnico en formato PDF que documenta:
+
+- El contexto y objetivo del caso de estudio.
+- La metodología empleada.
+- La preparación y transformación de los datos.
+- El análisis desarrollado para cada pregunta de negocio.
+- Las conclusiones y recomendaciones finales.
+
+El informe se construye automáticamente utilizando una plantilla desarrollada en LaTeX.
 
 ---
 
@@ -75,11 +109,11 @@ El proyecto fue desarrollado siguiendo un flujo de trabajo de análisis explorat
 
 El análisis permitió identificar los siguientes hallazgos:
 
-- El saldo total administrado presentó fluctuaciones durante 2025, sin evidenciar una tendencia sostenida de crecimiento o disminución.
-- La distribución de los saldos entre las sucursales fue relativamente equilibrada, sin observarse una concentración significativa en una única agencia.
-- Los segmentos de clientes mostraron una distribución homogénea del saldo administrado.
-- No se identificó una relación lineal claramente definida entre el ingreso de los clientes y el saldo disponible en sus cuentas.
-- La mayor concentración de saldos se registró en clientes con edades comprendidas entre 20 y 69 años.
+* El saldo total administrado presentó fluctuaciones durante 2025, sin evidenciar una tendencia sostenida de crecimiento o disminución.
+* La distribución de los saldos entre las sucursales fue relativamente equilibrada, sin observarse una concentración significativa en una única agencia.
+* Los segmentos de clientes mostraron una distribución homogénea del saldo administrado.
+* No se identificó una relación lineal claramente definida entre el ingreso de los clientes y el saldo disponible en sus cuentas.
+* La mayor concentración de saldos se registró en clientes con edades comprendidas entre 20 y 69 años.
 
 ---
 
@@ -87,10 +121,10 @@ El análisis permitió identificar los siguientes hallazgos:
 
 Como resultado del análisis se proponen las siguientes acciones:
 
-- Incorporar variables adicionales que permitan explicar con mayor precisión el comportamiento de los saldos.
-- Realizar análisis específicos por sucursal y segmento de clientes para identificar oportunidades comerciales.
-- Diseñar estrategias diferenciadas según el perfil de los clientes y los grupos de edad.
-- Complementar el análisis exploratorio mediante técnicas estadísticas y modelos predictivos.
+* Incorporar variables adicionales que permitan explicar con mayor precisión el comportamiento de los saldos.
+* Realizar análisis específicos por sucursal y segmento de clientes para identificar oportunidades comerciales.
+* Diseñar estrategias diferenciadas según el perfil de los clientes y los grupos de edad.
+* Complementar el análisis exploratorio mediante técnicas estadísticas y modelos predictivos.
 
 ---
 
@@ -100,15 +134,24 @@ Como resultado del análisis se proponen las siguientes acciones:
 
 2. Instalar las dependencias:
 
+> **Nota:** Para generar automáticamente el informe técnico es necesario tener instalada una distribución de LaTeX compatible con XeLaTeX (por ejemplo, MiKTeX o TeX Live).
+
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Abrir el archivo `caso1.ipynb` utilizando JupyterLab o Jupyter Notebook.
+3. Abrir el archivo `caso1.ipynb` utilizando Jupyter Notebook o JupyterLab.
 
-4. Ejecutar las celdas del notebook. El proyecto utiliza el archivo `caso_1_limpios.csv` incluido en este repositorio, por lo que no es necesario configurar una base de datos.
-```
+4. Ejecutar todas las celdas del notebook.
 
+Al finalizar la ejecución se generarán automáticamente:
+
+* El conjunto de tablas en formato LaTeX.
+* Las figuras utilizadas en el análisis.
+* Los textos del informe.
+* El informe técnico final en formato PDF.
+
+---
 
 # Autor
 
@@ -116,4 +159,4 @@ pip install -r requirements.txt
 
 Estudiante de Economía | Analista de Datos
 
-Proyecto desarrollado con fines educativos y de construcción de portafolio profesional.
+Proyecto desarrollado con fines educativos y como parte de un portafolio profesional de análisis de datos.

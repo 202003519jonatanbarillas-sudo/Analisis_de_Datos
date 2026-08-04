@@ -39,19 +39,35 @@ def guardar_textos_tex(reporte, output_dir="../text"):
     """
     Guarda los textos extraídos del notebook en archivos .tex.
     """
-    # Crear la carpeta si no existe
     os.makedirs(output_dir, exist_ok=True)
-    for tipo, bloques in reporte.items():
 
+    for tipo, bloques in reporte.items():
         for i, texto in enumerate(bloques, start=1):
             nombre = tipo
-
             if len(bloques) > 1:
                 nombre += f"_{i:02d}"   # 01, 02, 03...
 
             ruta_archivo = os.path.join(output_dir, f"{nombre}.tex")
+
+            if tipo == "conclusiones":
+                items = [p.strip() for p in texto.split(".") if p.strip()]
+                contenido = "\\begin{enumerate}\n"
+                for item in items:
+                    contenido += f"    \\item {item}.\n"
+                contenido += "\\end{enumerate}\n"
+
+            elif tipo == "recomendaciones":
+                items = [p.strip() for p in texto.split(".") if p.strip()]
+                contenido = "\\begin{itemize}\n"
+                for item in items:
+                    contenido += f"    \\item {item}.\n"
+                contenido += "\\end{itemize}\n"
+
+            else:
+                contenido = texto
+
             with open(ruta_archivo, "w", encoding="utf-8") as f:
-                f.write(texto)
+                f.write(contenido)
 
             print(f"-> '{nombre}.tex' guardado en '{output_dir}/'")
 

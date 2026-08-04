@@ -19,7 +19,8 @@ def guardar_grafica(figura, nombre: str, output_dir: str = "../charts") -> None:
 
     try:
         export_png(figura, filename=ruta_archivo, webdriver=driver)
-        print(f"-> Gráfica '{nombre}.png' exportada correctamente")
+        print(f"-> Gráfica '{nombre}.png' exportada con éxito en la carpeta"
+      f" '{output_dir}/'.")
 
     except Exception as e:
         print(f"Error exportando '{nombre}': {e}")
@@ -37,34 +38,14 @@ def exportar_graficas(CHARTS, output_dir="../charts") -> None:
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1200,800")
 
-    driver = webdriver.Chrome(
-        service=Service(
-            ChromeDriverManager().install()
-        ),
-        options=options
-    )
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=options)
 
     try:
-
         for nombre, figura in CHARTS.items():
-
-            ruta_archivo = os.path.join(
-                output_dir,
-                f"{nombre}.png"
-            )
-
-            export_png(
-                figura,
-                filename=ruta_archivo,
-                webdriver=driver
-            )
-
-            print(
-                f"-> {nombre}.png exportada"
-            )
+            ruta_archivo = os.path.join( output_dir, f"{nombre}.png")
+            export_png(figura, filename=ruta_archivo, webdriver=driver)
+            print(f"-> {nombre}.png exportada")
 
     finally:
-
         driver.quit()
-
     print("Todas las gráficas fueron exportadas correctamente.")

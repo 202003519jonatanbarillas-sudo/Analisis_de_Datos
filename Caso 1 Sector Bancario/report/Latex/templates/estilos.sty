@@ -1,140 +1,147 @@
 %==================================================
-% ESTILOS.STY
-% Configuración general del reporte
+% ESTILOS.STY - Informe Ejecutivo Institucional
 %==================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{estilos}[2026/08/04 Estilo Ejecutivo para Informes]
 
-%==================================================
+%--------------------------------------------------
 % CONFIGURACIÓN DE PÁGINA
-%==================================================
-
+%--------------------------------------------------
 \RequirePackage[
     a4paper,
-    left=2.8cm,
-    right=2.8cm,
-    top=2.8cm,
-    bottom=2.8cm
+    left=2.5cm,
+    right=2.5cm,
+    top=3.0cm, % Ligeramente mayor para separar el encabezado
+    bottom=2.5cm,
+    headheight=24pt
 ]{geometry}
 
-%==================================================
+%--------------------------------------------------
+% TIPOGRAFÍA PROFESIONAL
+%--------------------------------------------------
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{mathpazo} % Tipografía Palatino (Elegancia para el texto)
+\RequirePackage[scaled=0.92]{helvet} % Helvetica para títulos y datos
+\renewcommand{\familydefault}{\rmdefault}
+\RequirePackage{microtype} % Ajuste micrométrico para justificación perfecta
+
+%--------------------------------------------------
 % PAQUETES BÁSICOS
-%==================================================
-
-% Gráficos
+%--------------------------------------------------
 \RequirePackage{graphicx}
-
-% Colores
 \RequirePackage{xcolor}
-
-% Hipervínculos
+\RequirePackage{colortbl}
 \RequirePackage[hidelinks]{hyperref}
-
-% Referencias inteligentes
 \RequirePackage{cleveref}
-
-%==================================================
-% TABLAS
-%==================================================
-
+\RequirePackage{caption}
+\RequirePackage{float}
+\RequirePackage{enumitem}
+\RequirePackage{setspace}
+\RequirePackage{scrlayer-scrpage}
 \RequirePackage{booktabs}
 \RequirePackage{tabularx}
 \RequirePackage{longtable}
 \RequirePackage{array}
 \RequirePackage{adjustbox}
 
-%==================================================
-% FIGURAS
-%==================================================
+%--------------------------------------------------
+% COLORES INSTITUCIONALES (Estilo Banco Mundial/Bloomberg)
+%--------------------------------------------------
+\definecolor{CorporateBlue}{RGB}{0, 48, 110}     % Azul marino profundo (Estructura principal)
+\definecolor{CorporateGray}{RGB}{89, 89, 89}     % Gris oscuro (Textos secundarios y pie de página)
+\definecolor{AccentBlue}{RGB}{0, 113, 188}       % Azul claro (Subtítulos y links)
+\definecolor{AccentOrange}{RGB}{236, 112, 20}    % Naranja (Para resaltar métricas en tablas o alertas)
+\definecolor{LightGray}{RGB}{248, 248, 248}      % Gris muy sutil para fondos de tablas
 
-\RequirePackage{caption}
-\RequirePackage{float}
+%--------------------------------------------------
+% CONFIGURACIÓN GENERAL DE PÁRRAFO
+%--------------------------------------------------
+\setstretch{1.15}                % Interlineado equilibrado
+\setlength{\parindent}{0pt}      % Diseño moderno sin sangría
+\setlength{\parskip}{0.8em}      % Espacio claro entre párrafos
 
-%==================================================
-% LISTAS
-%==================================================
-
-\RequirePackage{enumitem}
-
-%==================================================
-% ESPACIADO
-%==================================================
-
-\RequirePackage{setspace}
-
-%==================================================
-% ENCABEZADO Y PIE (KOMA)
-%==================================================
-
-\RequirePackage{scrlayer-scrpage}
-
-%==================================================
-% COLORES CORPORATIVOS
-%==================================================
-
-\definecolor{CorporateBlue}{RGB}{25,55,109}
-\definecolor{CorporateGray}{RGB}{90,90,90}
-\definecolor{LightGray}{RGB}{235,235,235}
-
-%==================================================
-% CONFIGURACIÓN GENERAL
-%==================================================
-
-\onehalfspacing
-
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{0.7em}
-
-%==================================================
-% ENCABEZADO Y PIE
-%==================================================
+%--------------------------------------------------
+% ENCABEZADO Y PIE DE PÁGINA
+%--------------------------------------------------
+\KOMAoptions{headsepline=0.5pt} 
+\setkomafont{headsepline}{\color{CorporateBlue}}
 
 \clearpairofpagestyles
-
-\ihead{\TituloCaso}
-\ohead{\SubtituloCaso}
-
-\cfoot{\pagemark}
-
+\ihead{\sffamily\small\color{CorporateGray}\TituloCaso}
+\ohead{\sffamily\small\color{CorporateBlue}\textbf{\SubtituloCaso}}
+\cfoot{\sffamily\color{CorporateGray}Página \thepage}
 \pagestyle{scrheadings}
 
-%==================================================
-% TÍTULOS (KOMA-Script)
-%==================================================
+% --> AGREGA ESTA LÍNEA PARA FORZAR EL ENCABEZADO:
+\renewcommand*{\chapterpagestyle}{scrheadings}
 
-\setkomafont{chapter}{\Huge\bfseries\color{CorporateBlue}}
-\setkomafont{section}{\Large\bfseries\color{CorporateBlue}}
-\setkomafont{subsection}{\large\bfseries}
+%--------------------------------------------------
+% TÍTULOS Y SECCIONES
+%--------------------------------------------------
+\setkomafont{chapter}{\sffamily\Huge\bfseries\color{CorporateBlue}}
+\setkomafont{section}{\sffamily\Large\bfseries\color{CorporateBlue}}
+\setkomafont{subsection}{\sffamily\large\bfseries\color{AccentBlue}}
+\setkomafont{subsubsection}{\sffamily\normalsize\bfseries\color{CorporateGray}}
+%--------------------------------------------------
+% AJUSTE DE ESPACIADO DE TÍTULOS (Invasión de margen)
+%--------------------------------------------------
+% 1. Mantenemos beforeskip en 0pt para no activar la regla extraña de LaTeX
+\RedeclareSectionCommand[
+  beforeskip=0pt,       
+  afterskip=0.8cm       
+]{chapter}
 
-%==================================================
-% CAPTIONS
-%==================================================
+% 2. Inyectamos un salto negativo literal para "jalar" el título hacia arriba
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5cm}}
 
+\RedeclareSectionCommand[
+  beforeskip=0.5cm,     
+  afterskip=0.3cm       
+]{section}
+%--------------------------------------------------
+% CONFIGURACIÓN DE TABLAS (Data Analysis)
+%--------------------------------------------------
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.3} % Más respiro en las filas de las tablas
+\arrayrulecolor{CorporateBlue} % Las líneas de las tablas usarán el color institucional
+
+%--------------------------------------------------
+% CAPTIONS (Gráficos y Tablas)
+%--------------------------------------------------
 \captionsetup{
-    labelfont=bf,
-    font=small,
-    justification=centering
+    labelfont={sf,bf,color=CorporateBlue}, % Ej: "Figura 1:" en azul y sans-serif
+    textfont={sf,small,color=CorporateGray},
+    justification=justified,
+    singlelinecheck=false, % Alinea a la izquierda estilo reporte analítico
+    margin=0pt,
+    skip=10pt
 }
 
-%==================================================
+%--------------------------------------------------
 % LISTAS
-%==================================================
-
+%--------------------------------------------------
 \setlist[itemize]{
     itemsep=0.3em,
-    topsep=0.5em
+    topsep=0.3em,
+    label=\textcolor{AccentBlue}{\rule{0.6ex}{0.6ex}}, % Cuadrados azules minimalistas en lugar de círculos
+    leftmargin=*
 }
-
 \setlist[enumerate]{
     itemsep=0.3em,
-    topsep=0.5em
+    topsep=0.3em,
+    label=\textcolor{AccentBlue}{\textbf{\arabic*.}},
+    leftmargin=*
 }
 
-%==================================================
+%--------------------------------------------------
 % HIPERVÍNCULOS
-%==================================================
-
+%--------------------------------------------------
 \hypersetup{
     colorlinks=true,
     linkcolor=CorporateBlue,
     citecolor=CorporateBlue,
-    urlcolor=CorporateBlue
+    urlcolor=AccentBlue, % URLs resaltadas sutilmente
+    pdfpagemode=UseNone,
+    pdfstartview=FitH
 }
