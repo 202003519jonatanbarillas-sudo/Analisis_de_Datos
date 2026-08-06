@@ -16,7 +16,7 @@ Una firma de inversión desea comprender el comportamiento histórico de las pri
 
 # Objetivo general
 
-Analizar el comportamiento histórico del precio de las acciones, el volumen de negociación y el rendimiento acumulado de las principales empresas del mercado bursátil estadounidense durante el período **2018–2025** mediante técnicas de análisis exploratorio de datos para identificar tendencias, niveles de volatilidad y diferencias entre compañías.
+Analizar el comportamiento histórico del precio de las acciones, el volumen de negociación y el rendimiento acumulado de las principales empresas del mercado bursátil estadounidense durante el período **2018–2023** mediante técnicas de análisis exploratorio de datos para identificar tendencias, niveles de volatilidad y diferencias entre compañías.
 
 ---
 
