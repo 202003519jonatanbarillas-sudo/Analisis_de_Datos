@@ -1,8 +1,8 @@
-# Caso 4 - Análisis del Rendimiento de las Empresas con Mayor Capitalización Bursátil (2018–2025) (Pendiente de implementar automatizacion del informe)
+# Caso 4 - Análisis del Rendimiento de las Empresas con Mayor Capitalización Bursátil (2018–2023) (Pendiente de implementar automatizacion del informe)
 
 ## Descripción
 
-Este proyecto presenta un análisis exploratorio de datos (Exploratory Data Analysis - EDA) sobre el comportamiento histórico de las principales empresas con mayor capitalización bursátil del mercado estadounidense durante el período **2018–2025**.
+Este proyecto presenta un análisis exploratorio de datos (Exploratory Data Analysis - EDA) sobre el comportamiento histórico de las principales empresas con mayor capitalización bursátil del mercado estadounidense durante el período **2018–2023**.
 
 El proyecto fue desarrollado utilizando **Python, MySQL, Bokeh y LaTeX**, implementando un flujo de trabajo que abarca desde la preparación de los datos hasta la generación automática de un informe técnico, permitiendo identificar patrones de crecimiento, volatilidad, liquidez y rendimiento acumulado que apoyen el análisis financiero y la toma de decisiones de inversión.
 
