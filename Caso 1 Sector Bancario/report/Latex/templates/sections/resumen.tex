@@ -1,11 +1,13 @@
-\chapter*{Resumen Ejecutivo}
-\addcontentsline{toc}{chapter}{Resumen Ejecutivo}
+
+\addcontentsline{toc}{section}{Resumen Ejecutivo}
+
+\ReportTitle{Resumen Ejecutivo}
 
 %==================================================
-% DESCRIPCIÓN DEL ESTUDIO
+% CONTEXTO
 %==================================================
 
-\section*{Descripción del estudio}
+\SectionTitle{Contexto}
 
 \input{../../../text/contexto.tex}
 
@@ -13,15 +15,15 @@
 % OBJETIVO
 %==================================================
 
-\section*{Objetivo del análisis}
+\SectionTitle{Objetivo del análisis}
 
 \input{../../../text/objetivo.tex}
 
 %==================================================
-% INFORMACIÓN GENERAL DEL DATASET
+% INFORMACIÓN GENERAL
 %==================================================
 
-\section*{Información general del conjunto de datos}
+\SectionTitle{Información general del conjunto de datos}
 
 \input{../../../tables/table.tex}
 
@@ -29,12 +31,32 @@
 % METODOLOGÍA
 %==================================================
 
-\section*{Metodología}
+\SectionTitle{Metodología}
 
-El análisis se desarrolló siguiendo un flujo estructurado que comprendió una evaluación inicial de la calidad de los datos, procesos de limpieza y transformación mediante MySQL, una validación posterior del conjunto de datos preparado y, finalmente, el desarrollo del análisis exploratorio utilizando Python. Los resultados fueron documentados automáticamente y consolidados en el presente informe técnico.
+El análisis fue desarrollado mediante un flujo estructurado compuesto por las siguientes etapas:
+
+\vspace{0.4cm}
+
+\MethodItem{Auditoría inicial de calidad de los datos}
+
+\MethodItem{Limpieza y tratamiento de inconsistencias}
+
+\MethodItem{Transformación de datos mediante MySQL}
+
+\MethodItem{Validación del conjunto de datos preparado}
+
+\MethodItem{Análisis exploratorio utilizando Python}
+
+\MethodItem{Generación automática del informe en \LaTeX}
 
 %==================================================
-% CIERRE
+% NOTA FINAL
 %==================================================
 
-El desarrollo detallado de los resultados, las conclusiones y las recomendaciones derivadas del análisis se presentan en los capítulos posteriores.
+\vspace{0.8cm}
+
+\ExecutiveNote{
+El presente documento resume el proceso completo de análisis realizado.
+Los resultados detallados, las visualizaciones, las conclusiones y las
+recomendaciones se desarrollan en los capítulos posteriores.
+}

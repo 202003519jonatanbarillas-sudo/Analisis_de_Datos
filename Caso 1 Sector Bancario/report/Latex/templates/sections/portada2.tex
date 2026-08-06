@@ -1,4 +1,9 @@
+\documentclass[a4paper,12pt]{article}
 
+\input{../variables}
+\usepackage{../estilos}
+
+\begin{document}
 
 \newgeometry{
 left=0cm,
@@ -35,7 +40,7 @@ at ($(current page.center)+(0,-2.5cm)$)
 width=0.85\paperwidth,
 clip,
 trim=5mm 5mm 5mm 5mm
-]{../../../charts/portada_grafica.png}
+]{portada_grafica.png}
 };
 
 %==================================================
@@ -142,7 +147,7 @@ at ($(current page.south)+(0,2.5cm)$)
 %==================================================
 
 \vspace*{3.5cm}
-\hspace*{2.5cm}
+\hspace*{2.2cm}
 
 \hfill
 \begin{minipage}{6cm}
@@ -154,10 +159,10 @@ at ($(current page.south)+(0,2.5cm)$)
 
 \vspace*{3.5cm}
 
-\hspace*{1.5cm}
+\hspace*{1cm}
 \begin{minipage}{12cm}
 
-{\fontsize{32.5}{52}\selectfont
+{\fontsize{35}{52}\selectfont
 \bfseries
 \color{ThemeTitle}
 \TituloPrincipal\par}
@@ -172,7 +177,7 @@ at ($(current page.south)+(0,2.5cm)$)
 \vspace{0.5cm}
 
 \tikz\draw[ThemeGold,line width=1pt]
-(0.05cm,0)--(12.5cm,0);
+(0,0)--(4.5cm,0);
 
 \vspace{0.5cm}
 
@@ -193,3 +198,4 @@ at ($(current page.south)+(0,2.5cm)$)
 
 \restoregeometry
 
+\end{document}

@@ -1,147 +1,199 @@
 %==================================================
-% ESTILOS.STY - Informe Ejecutivo Institucional
+% ESTILOS.STY - Configuración mínima
 %==================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{estilos}[2026/08/04 Estilo Ejecutivo para Informes]
+\ProvidesPackage{estilos}[2026/08/05 Estilo básico con colores]
 
 %--------------------------------------------------
-% CONFIGURACIÓN DE PÁGINA
+% PAQUETES
 %--------------------------------------------------
-\RequirePackage[
-    a4paper,
-    left=2.5cm,
-    right=2.5cm,
-    top=3.0cm, % Ligeramente mayor para separar el encabezado
-    bottom=2.5cm,
-    headheight=24pt
-]{geometry}
-
-%--------------------------------------------------
-% TIPOGRAFÍA PROFESIONAL
-%--------------------------------------------------
-\RequirePackage[T1]{fontenc}
-\RequirePackage[utf8]{inputenc}
-\RequirePackage{mathpazo} % Tipografía Palatino (Elegancia para el texto)
-\RequirePackage[scaled=0.92]{helvet} % Helvetica para títulos y datos
-\renewcommand{\familydefault}{\rmdefault}
-\RequirePackage{microtype} % Ajuste micrométrico para justificación perfecta
-
-%--------------------------------------------------
-% PAQUETES BÁSICOS
-%--------------------------------------------------
+\RequirePackage{tikz}
+\usetikzlibrary{calc}
+\RequirePackage{xcolor}
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{fontspec}
+\RequirePackage{adjustbox}
 \RequirePackage{graphicx}
 \RequirePackage{xcolor}
-\RequirePackage{colortbl}
-\RequirePackage[hidelinks]{hyperref}
-\RequirePackage{cleveref}
-\RequirePackage{caption}
-\RequirePackage{float}
-\RequirePackage{enumitem}
-\RequirePackage{setspace}
-\RequirePackage{scrlayer-scrpage}
+\RequirePackage{tikz}
+\RequirePackage{geometry}
 \RequirePackage{booktabs}
 \RequirePackage{tabularx}
 \RequirePackage{longtable}
 \RequirePackage{array}
 \RequirePackage{adjustbox}
+\RequirePackage{amssymb}
+\RequirePackage{caption}
+\RequirePackage{float}
+\RequirePackage{hyperref}
+\RequirePackage{enumitem}
+\RequirePackage{setspace}
+\RequirePackage{titlesec}
+\RequirePackage{fontspec}
+\RequirePackage{tocloft}
+
+% Fuente principal
+\setmainfont{Arial}
 
 %--------------------------------------------------
-% COLORES INSTITUCIONALES (Estilo Banco Mundial/Bloomberg)
+% COLORES
 %--------------------------------------------------
-\definecolor{CorporateBlue}{RGB}{0, 48, 110}     % Azul marino profundo (Estructura principal)
-\definecolor{CorporateGray}{RGB}{89, 89, 89}     % Gris oscuro (Textos secundarios y pie de página)
-\definecolor{AccentBlue}{RGB}{0, 113, 188}       % Azul claro (Subtítulos y links)
-\definecolor{AccentOrange}{RGB}{236, 112, 20}    % Naranja (Para resaltar métricas en tablas o alertas)
-\definecolor{LightGray}{RGB}{248, 248, 248}      % Gris muy sutil para fondos de tablas
+\definecolor{ThemeBackground}{HTML}{0B0B0B}
+\definecolor{ThemeBackgroundLight}{HTML}{0B0B0B}
+\definecolor{ThemeGold}{HTML}{D4AF37}
+\definecolor{ThemeGoldDark}{HTML}{B58A18}
+\definecolor{ThemeTitle}{HTML}{FFD700}
+\definecolor{ThemeSubtitle}{HTML}{F5F5F5}
+\definecolor{ThemeText}{HTML}{C9C9C9}
+\definecolor{ThemeMuted}{HTML}{7C7C7C}
+\definecolor{ThemeGoldLight}{HTML}{E6C867}
 
-%--------------------------------------------------
-% CONFIGURACIÓN GENERAL DE PÁRRAFO
-%--------------------------------------------------
-\setstretch{1.15}                % Interlineado equilibrado
-\setlength{\parindent}{0pt}      % Diseño moderno sin sangría
-\setlength{\parskip}{0.8em}      % Espacio claro entre párrafos
+%==================================================
+% PALETA PARA DOCUMENTO BLANCO
+%==================================================
 
-%--------------------------------------------------
-% ENCABEZADO Y PIE DE PÁGINA
-%--------------------------------------------------
-\KOMAoptions{headsepline=0.5pt} 
-\setkomafont{headsepline}{\color{CorporateBlue}}
+\definecolor{ReportHeading}{HTML}{8A6508}
+\definecolor{ReportGold}{HTML}{B58A18}
+\definecolor{ReportSubtitle}{HTML}{5C5C5C}
+\definecolor{ReportText}{HTML}{333333}
+\definecolor{ReportLine}{HTML}{D4AF37}
+\definecolor{ReportBox}{HTML}{F7F5EF}
 
-\clearpairofpagestyles
-\ihead{\sffamily\small\color{CorporateGray}\TituloCaso}
-\ohead{\sffamily\small\color{CorporateBlue}\textbf{\SubtituloCaso}}
-\cfoot{\sffamily\color{CorporateGray}Página \thepage}
-\pagestyle{scrheadings}
+%==================================================
+% CONFIGURACIÓN DE TEXTO
+%==================================================
 
-% --> AGREGA ESTA LÍNEA PARA FORZAR EL ENCABEZADO:
-\renewcommand*{\chapterpagestyle}{scrheadings}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
 
-%--------------------------------------------------
-% TÍTULOS Y SECCIONES
-%--------------------------------------------------
-\setkomafont{chapter}{\sffamily\Huge\bfseries\color{CorporateBlue}}
-\setkomafont{section}{\sffamily\Large\bfseries\color{CorporateBlue}}
-\setkomafont{subsection}{\sffamily\large\bfseries\color{AccentBlue}}
-\setkomafont{subsubsection}{\sffamily\normalsize\bfseries\color{CorporateGray}}
-%--------------------------------------------------
-% AJUSTE DE ESPACIADO DE TÍTULOS (Invasión de margen)
-%--------------------------------------------------
-% 1. Mantenemos beforeskip en 0pt para no activar la regla extraña de LaTeX
-\RedeclareSectionCommand[
-  beforeskip=0pt,       
-  afterskip=0.8cm       
-]{chapter}
 
-% 2. Inyectamos un salto negativo literal para "jalar" el título hacia arriba
-\renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5cm}}
+%==================================================
+% TÍTULO PRINCIPAL DEL INFORME
+%==================================================
 
-\RedeclareSectionCommand[
-  beforeskip=0.5cm,     
-  afterskip=0.3cm       
-]{section}
-%--------------------------------------------------
-% CONFIGURACIÓN DE TABLAS (Data Analysis)
-%--------------------------------------------------
-\setlength{\tabcolsep}{8pt}
-\renewcommand{\arraystretch}{1.3} % Más respiro en las filas de las tablas
-\arrayrulecolor{CorporateBlue} % Las líneas de las tablas usarán el color institucional
+\newcommand{\ReportTitle}[1]{
 
-%--------------------------------------------------
-% CAPTIONS (Gráficos y Tablas)
-%--------------------------------------------------
-\captionsetup{
-    labelfont={sf,bf,color=CorporateBlue}, % Ej: "Figura 1:" en azul y sans-serif
-    textfont={sf,small,color=CorporateGray},
-    justification=justified,
-    singlelinecheck=false, % Alinea a la izquierda estilo reporte analítico
-    margin=0pt,
-    skip=10pt
+    \vspace{0.5cm}
+
+    {\Huge\bfseries\color{ReportHeading}#1\par}
+
+    \vspace{0.25cm}
+
+    {\color{ReportLine}
+    \rule{8cm}{1.2pt}}
+
+    \vspace{1cm}
 }
 
-%--------------------------------------------------
-% LISTAS
-%--------------------------------------------------
-\setlist[itemize]{
-    itemsep=0.3em,
-    topsep=0.3em,
-    label=\textcolor{AccentBlue}{\rule{0.6ex}{0.6ex}}, % Cuadrados azules minimalistas en lugar de círculos
-    leftmargin=*
-}
-\setlist[enumerate]{
-    itemsep=0.3em,
-    topsep=0.3em,
-    label=\textcolor{AccentBlue}{\textbf{\arabic*.}},
-    leftmargin=*
+
+%==================================================
+% TÍTULOS DE SECCIÓN
+%==================================================
+
+\newcommand{\SectionTitle}[1]{
+
+    \vspace{0.8cm}
+
+    {\Large\bfseries\color{ReportHeading}#1\par}
+
+    \vspace{0.2cm}
+
+    {\color{ReportLine}
+    \rule{\linewidth}{0.5pt}}
+
+    \vspace{0.5cm}
 }
 
-%--------------------------------------------------
-% HIPERVÍNCULOS
-%--------------------------------------------------
-\hypersetup{
-    colorlinks=true,
-    linkcolor=CorporateBlue,
-    citecolor=CorporateBlue,
-    urlcolor=AccentBlue, % URLs resaltadas sutilmente
-    pdfpagemode=UseNone,
-    pdfstartview=FitH
+
+%==================================================
+% NOTA EJECUTIVA
+%==================================================
+
+\newcommand{\ExecutiveNote}[1]{
+
+\begin{tikzpicture}
+
+\node[
+fill=ReportBox,
+draw=ReportLine,
+rounded corners=3pt,
+line width=0.6pt,
+inner sep=12pt,
+text width=.95\linewidth
+]
+{
+
+{\bfseries\color{ReportHeading}Nota Ejecutiva}
+
+\vspace{0.4cm}
+
+{\color{ReportText}#1}
+
+};
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
 }
+
+
+%==================================================
+% METODOLOGÍA (LISTA)
+%==================================================
+
+\newcommand{\MethodItem}[1]{
+
+{\color{ReportGold}$\blacktriangleright$}
+\hspace{0.5em}
+{\color{ReportText}#1}
+
+\vspace{0.25cm}
+
+}
+
+%==================================================
+% ÍNDICE EJECUTIVO
+%==================================================
+
+\renewcommand{\contentsname}{Contenido}
+
+\renewcommand{\cfttoctitlefont}
+{\Huge\bfseries\color{ReportHeading}}
+
+\renewcommand{\cftaftertoctitle}
+{
+\vspace{0.3cm}
+
+{\color{ReportLine}
+\rule{8cm}{1.2pt}}
+
+\vspace{0.8cm}
+}
+
+
+% Secciones
+\renewcommand{\cftsecfont}
+{\large\bfseries\color{ReportText}}
+
+\renewcommand{\cftsecpagefont}
+{\large\color{ReportGold}}
+
+
+% Subsecciones
+\renewcommand{\cftsubsecfont}
+{\color{ReportSubtitle}}
+
+\renewcommand{\cftsubsecpagefont}
+{\color{ReportGold}}
+
+
+
+% Separación
+\setlength{\cftbeforesecskip}{8pt}
+\setlength{\cftbeforesubsecskip}{4pt}
+
+
+% Línea punteada
+\renewcommand{\cftdotsep}{2}

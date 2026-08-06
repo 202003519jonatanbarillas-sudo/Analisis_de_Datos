@@ -1,45 +1,65 @@
-\documentclass[
-    11pt,
-    a4paper,
-    oneside
-]{scrreprt}
+\documentclass[letterpaper,12pt]{article}
 
 %===============================
 % CONFIGURACIÓN
 %===============================
+
 \input{variables}
-\input{encabezado}
 \input{comandos}
+\input{encabezado}
+
+%===============================
+% ESTILOS
+%===============================
+
 \usepackage{estilos}
+
 
 \begin{document}
 
+%===============================
+% PORTADA
+%===============================
+
+\pagenumbering{gobble}
+
 \input{sections/portada}
+
 \clearpage
 
+
+%===============================
+% PÁGINAS PRELIMINARES
+%===============================
+
+\pagenumbering{roman}
+
+\input{sections/resumen}
+
+\clearpage
+
+\thispagestyle{empty}
 \tableofcontents
 
 \clearpage
 
-\input{sections/resumen}
-\clearpage
-\input{sections/introduccion}
-\clearpage
-\input{sections/objetivos}
-\clearpage
-\input{sections/dataset}
-\clearpage
-\input{sections/metodologia}
-\clearpage
-\input{sections/preparacion}
-\clearpage
-\input{sections/resultados}
-\clearpage
-\input{sections/conclusiones}
-\clearpage
-\input{sections/recomendaciones}
-\clearpage
-\appendix
-\input{sections/anexos}
-\clearpage
+
+%===============================
+% INICIO DEL INFORME
+%===============================
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+% Aquí empiezan los capítulos
+% \input{sections/introduccion}
+% \clearpage
+%
+% \input{sections/metodologia}
+% \clearpage
+%
+% \input{sections/resultados}
+
+
 \end{document}

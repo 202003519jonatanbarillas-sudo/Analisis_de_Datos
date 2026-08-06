@@ -16,49 +16,41 @@ def guardar_tabla(df: pd.DataFrame, nombre: str, output_dir: str = "tables") -> 
     else:
         df_mostrar = df.copy()
 
-    # Formato de columnas: primera izquierda (l), resto derecha (r) para datos numéricos
-    formato_cols = "l" + "r" * total_cols
+    formato_cols = "l" * total_cols
 
-    # Exportación usando el motor de estilo moderno de Pandas (compatible con booktabs)
-    # Se convierte a string previamente para evitar errores con los "..."
-    if total_filas > limite_visualizacion:
-        for col in df.select_dtypes(include=['float', 'float64']).columns:
-            df_mostrar[col] = df_mostrar[col].apply(
-                lambda x: f"{x:.2f}" if pd.notnull(x) and isinstance(x, (int, float)) else x
-            )
-
-    latex_str = df_mostrar.style.to_latex(
-        hrules=True,             # Activa \toprule, \midrule, \bottomrule (booktabs)
-        column_format=formato_cols
+    latex_str = df_mostrar.to_latex(
+        index=False,
+        escape=True,
+        float_format="%.2f",
+        column_format=formato_cols,
+        longtable=False
     )
 
-    # Limpieza del nombre para un título presentable (Ej: "ventas_mensuales" -> "Ventas Mensuales")
     nombre_limpio = nombre.replace("_", " ").title()
 
-    # Pie de nota estilizado con la tipografía y color corporativo
     if total_filas > limite_visualizacion:
         pie_nota = (
             f"\\vspace{{0.15cm}}\n"
-            f"\\raggedright{{\\sffamily\\footnotesize\\color{{CorporateGray}}\n"
+            f"\\raggedright{{\\sffamily\\footnotesize\\color{{ThemeMuted}}\n"
             f"\\textit{{Nota: Se muestran las primeras y últimas 5 filas. "
             f"Conjunto completo: {total_filas:,} registros $\\times$ {total_cols} variables.}}}}"
         )
     else:
         pie_nota = (
             f"\\vspace{{0.15cm}}\n"
-            f"\\raggedright{{\\sffamily\\footnotesize\\color{{CorporateGray}}\n"
+            f"\\raggedright{{\\sffamily\\footnotesize\\color{{ThemeMuted}}\n"
             f"\\textit{{Nota: Conjunto completo de datos ({total_filas:,} registros "
             f"$\\times$ {total_cols} variables).}}}}"
         )
 
-    # Ensamblaje del entorno LaTeX
+
     contenido_final = f"""% Archivo generado automáticamente. No editar a mano.
 \\begin{{table}}[htbp]
 \\centering
 \\begin{{adjustbox}}{{max width=\\textwidth}}
 {latex_str.strip()}
 \\end{{adjustbox}}
-\\caption{{Análisis de datos: {nombre_limpio}}}
+\\caption{{{nombre_limpio}}}
 \\label{{tab:{nombre}}}
 {pie_nota}
 \\end{{table}}
