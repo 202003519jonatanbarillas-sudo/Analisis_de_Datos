@@ -105,6 +105,9 @@ El informe se construye automáticamente utilizando una plantilla desarrollada e
 
 > ⚠️ **Nota sobre el informe PDF:** Este proyecto fue desarrollado con fines educativos y el motor de automatización de textos en LaTeX se encuentra en fase de mejora continua. Por tal motivo, el documento generado podría presentar algunos errores de redacción, textos repetidos o detalles de formato (espaciados, estructuración de títulos) que aún están siendo optimizados para alcanzar un estándar completamente profesional.
 
+📄 **¿Quieres ver el resultado final?** El informe técnico ya está compilado e incluido en este repositorio. Puedes visualizarlo directamente aquí sin necesidad de ejecutar el código: 
+👉 **[Ver el Informe Técnico en PDF](report/reporte_final.pdf)** *(Nota: asegúrate de cambiar la ruta por el nombre real de tu archivo PDF).*
+
 ---
 
 # Principales resultados
@@ -131,6 +134,10 @@ Como resultado del análisis se proponen las siguientes acciones:
 ---
 
 # Cómo ejecutar el proyecto
+
+> 💡 **Tip rápido:** Si solo deseas ver el resultado final sin instalar dependencias ni ejecutar el código, puedes abrir directamente el **[Informe PDF ya generado](report/reporte_final.pdf)** que se encuentra en la carpeta `report/`.
+
+Si deseas ejecutar el pipeline completo y generar el reporte por tu cuenta, sigue estos pasos:
 
 1. Clonar este repositorio.
 
