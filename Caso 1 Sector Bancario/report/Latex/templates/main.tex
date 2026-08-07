@@ -1,4 +1,11 @@
-\documentclass[letterpaper,12pt]{article}
+\documentclass[letterpaper,12pt]{report}
+
+%===============================
+% ESTILOS
+%===============================
+
+\usepackage{estilos}
+
 
 %===============================
 % CONFIGURACIÓN
@@ -8,14 +15,9 @@
 \input{comandos}
 \input{encabezado}
 
-%===============================
-% ESTILOS
-%===============================
-
-\usepackage{estilos}
-
 
 \begin{document}
+
 
 %===============================
 % PORTADA
@@ -25,7 +27,10 @@
 
 \input{sections/portada}
 
+\Portadafalse
+
 \clearpage
+
 
 
 %===============================
@@ -38,28 +43,121 @@
 
 \clearpage
 
+
 \thispagestyle{empty}
+
 \tableofcontents
 
 \clearpage
 
 
+
 %===============================
-% INICIO DEL INFORME
+% INFORME PRINCIPAL
 %===============================
 
 \pagenumbering{arabic}
+
 \setcounter{page}{1}
 
 
-% Aquí empiezan los capítulos
-% \input{sections/introduccion}
-% \clearpage
-%
-% \input{sections/metodologia}
-% \clearpage
-%
-% \input{sections/resultados}
+
+%-------------------------------
+% INTRODUCCIÓN
+%-------------------------------
+
+\input{sections/introduccion}
+
+\clearpage
+
+
+
+%-------------------------------
+% OBJETIVOS
+%-------------------------------
+
+\input{sections/objetivos}
+
+\clearpage
+
+
+
+%-------------------------------
+% METODOLOGÍA
+%-------------------------------
+
+\input{sections/metodologia}
+
+\clearpage
+
+
+
+%-------------------------------
+% DESCRIPCIÓN DEL DATASET
+%-------------------------------
+
+\input{sections/dataset}
+
+\clearpage
+
+
+
+%-------------------------------
+% PREPARACIÓN Y TRANSFORMACIÓN
+%-------------------------------
+
+\input{sections/preparacion}
+
+\clearpage
+
+
+
+%-------------------------------
+% VALIDACIÓN DEL DATASET
+%-------------------------------
+
+\input{sections/validacion}
+
+\clearpage
+
+
+
+%-------------------------------
+% RESULTADOS DEL ANÁLISIS
+%-------------------------------
+
+\input{sections/resultados}
+
+\clearpage
+
+
+
+%-------------------------------
+% CONCLUSIONES
+%-------------------------------
+
+\input{sections/conclusiones}
+
+\clearpage
+
+
+
+%-------------------------------
+% RECOMENDACIONES
+%-------------------------------
+
+\input{sections/recomendaciones}
+
+\clearpage
+
+
+
+%-------------------------------
+% ANEXOS
+%-------------------------------
+
+\input{sections/anexos}
+
 
 
 \end{document}

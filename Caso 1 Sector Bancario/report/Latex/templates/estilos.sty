@@ -1,116 +1,175 @@
 %==================================================
-% ESTILOS.STY - Configuración mínima
+% ESTILOS.STY - Luxury Executive Report
 %==================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{estilos}[2026/08/05 Estilo básico con colores]
+\ProvidesPackage{estilos}[2026/08/06 Luxury Executive Report]
 
-%--------------------------------------------------
+\newif\ifPortada
+\Portadatrue
+
+%==================================================
 % PAQUETES
-%--------------------------------------------------
+%==================================================
+\RequirePackage{colortbl}
 \RequirePackage{tikz}
 \usetikzlibrary{calc}
+\RequirePackage{ifthen}
 \RequirePackage{xcolor}
 \RequirePackage{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{fontspec}
+
 \RequirePackage{adjustbox}
-\RequirePackage{graphicx}
-\RequirePackage{xcolor}
-\RequirePackage{tikz}
-\RequirePackage{geometry}
 \RequirePackage{booktabs}
 \RequirePackage{tabularx}
 \RequirePackage{longtable}
 \RequirePackage{array}
-\RequirePackage{adjustbox}
+
 \RequirePackage{amssymb}
+
 \RequirePackage{caption}
 \RequirePackage{float}
-\RequirePackage{hyperref}
+
 \RequirePackage{enumitem}
 \RequirePackage{setspace}
+
 \RequirePackage{titlesec}
-\RequirePackage{fontspec}
 \RequirePackage{tocloft}
 
-% Fuente principal
+\RequirePackage{fancyhdr}
+\RequirePackage{eso-pic}
+
+
+% Siempre al final
+\RequirePackage[
+    hidelinks
+]{hyperref}
+%==================================================
+% CONFIGURACIÓN DE PÁGINA
+%==================================================
+
+\geometry{
+    letterpaper,
+    left=3.5cm,
+    right=2.5cm,
+    top= 3.5cm,
+    bottom=2.5cm,
+    headheight=42pt,
+    headsep=0.5cm
+}
+
+%==================================================
+% TIPOGRAFÍA
+%==================================================
+
 \setmainfont{Arial}
 
-%--------------------------------------------------
-% COLORES
-%--------------------------------------------------
+
+%==================================================
+% PALETA DARK GOLD (PORTADA)
+%==================================================
+
 \definecolor{ThemeBackground}{HTML}{0B0B0B}
 \definecolor{ThemeBackgroundLight}{HTML}{0B0B0B}
+
 \definecolor{ThemeGold}{HTML}{D4AF37}
 \definecolor{ThemeGoldDark}{HTML}{B58A18}
+\definecolor{ThemeGoldLight}{HTML}{E6C867}
+
 \definecolor{ThemeTitle}{HTML}{FFD700}
 \definecolor{ThemeSubtitle}{HTML}{F5F5F5}
 \definecolor{ThemeText}{HTML}{C9C9C9}
 \definecolor{ThemeMuted}{HTML}{7C7C7C}
-\definecolor{ThemeGoldLight}{HTML}{E6C867}
+
+
 
 %==================================================
-% PALETA PARA DOCUMENTO BLANCO
+% PALETA DOCUMENTO BLANCO
 %==================================================
 
 \definecolor{ReportHeading}{HTML}{8A6508}
 \definecolor{ReportGold}{HTML}{B58A18}
 \definecolor{ReportSubtitle}{HTML}{5C5C5C}
+
 \definecolor{ReportText}{HTML}{333333}
+
 \definecolor{ReportLine}{HTML}{D4AF37}
+
 \definecolor{ReportBox}{HTML}{F7F5EF}
 
+
+
 %==================================================
-% CONFIGURACIÓN DE TEXTO
+% TEXTO GENERAL
 %==================================================
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.8em}
 
+\setstretch{1.15}
+
+
 
 %==================================================
-% TÍTULO PRINCIPAL DEL INFORME
+% TITULO PRINCIPAL DE SECCION
 %==================================================
 
-\newcommand{\ReportTitle}[1]{
+\newcommand{\ReportTitle}[1]
+{
 
-    \vspace{0.5cm}
+\vspace{0.5cm}
 
-    {\Huge\bfseries\color{ReportHeading}#1\par}
+{\Huge
+\bfseries
+\color{ReportHeading}
+#1
+\par}
 
-    \vspace{0.25cm}
 
-    {\color{ReportLine}
-    \rule{8cm}{1.2pt}}
+\vspace{0.25cm}
 
-    \vspace{1cm}
+{\color{ReportLine}
+\rule{8cm}{1.2pt}}
+
+\vspace{1cm}
+
 }
 
 
+
 %==================================================
-% TÍTULOS DE SECCIÓN
+% TITULO DE SUBSECCION
 %==================================================
 
-\newcommand{\SectionTitle}[1]{
+\newcommand{\SectionTitle}[1]
+{
 
-    \vspace{0.8cm}
+\vspace{0.8cm}
 
-    {\Large\bfseries\color{ReportHeading}#1\par}
+{\Large
+\bfseries
+\color{ReportHeading}
+#1
+\par}
 
-    \vspace{0.2cm}
 
-    {\color{ReportLine}
-    \rule{\linewidth}{0.5pt}}
+\vspace{0.2cm}
 
-    \vspace{0.5cm}
+{\color{ReportLine}
+\rule{\linewidth}{0.5pt}}
+
+\vspace{0.5cm}
+
 }
 
 
+
 %==================================================
-% NOTA EJECUTIVA
+% CAJA EJECUTIVA
 %==================================================
 
-\newcommand{\ExecutiveNote}[1]{
+\newcommand{\ExecutiveNote}[1]
+{
 
 \begin{tikzpicture}
 
@@ -118,17 +177,21 @@
 fill=ReportBox,
 draw=ReportLine,
 rounded corners=3pt,
-line width=0.6pt,
+line width=.6pt,
 inner sep=12pt,
 text width=.95\linewidth
 ]
 {
 
-{\bfseries\color{ReportHeading}Nota Ejecutiva}
+{\bfseries
+\color{ReportHeading}
+Nota Ejecutiva}
 
-\vspace{0.4cm}
 
-{\color{ReportText}#1}
+\vspace{0.3cm}
+
+{\color{ReportText}
+#1}
 
 };
 
@@ -139,61 +202,239 @@ text width=.95\linewidth
 }
 
 
+
 %==================================================
-% METODOLOGÍA (LISTA)
+% LISTA METODOLOGICA
 %==================================================
 
-\newcommand{\MethodItem}[1]{
+\newcommand{\MethodItem}[1]
+{
 
-{\color{ReportGold}$\blacktriangleright$}
+{\color{ReportGold}
+$\blacktriangleright$}
+
 \hspace{0.5em}
-{\color{ReportText}#1}
+
+{\color{ReportText}
+#1}
 
 \vspace{0.25cm}
 
 }
 
+
+
 %==================================================
-% ÍNDICE EJECUTIVO
+% INDICE
 %==================================================
 
 \renewcommand{\contentsname}{Contenido}
 
+
 \renewcommand{\cfttoctitlefont}
-{\Huge\bfseries\color{ReportHeading}}
+{
+\Huge
+\bfseries
+\color{ReportHeading}
+}
+
 
 \renewcommand{\cftaftertoctitle}
 {
+
 \vspace{0.3cm}
 
 {\color{ReportLine}
 \rule{8cm}{1.2pt}}
 
 \vspace{0.8cm}
+
 }
+
+
+% Capítulos
+\renewcommand{\cftchapfont}
+{
+\large
+\bfseries
+\color{ReportText}
+}
+
+\renewcommand{\cftchappagefont}
+{
+\large
+\color{ReportGold}
+}
+
+\setlength{\cftbeforechapskip}{10pt}
 
 
 % Secciones
 \renewcommand{\cftsecfont}
-{\large\bfseries\color{ReportText}}
+{
+\large
+\bfseries
+\color{ReportText}
+}
+
 
 \renewcommand{\cftsecpagefont}
-{\large\color{ReportGold}}
+{
+\large
+\color{ReportGold}
+}
 
 
-% Subsecciones
-\renewcommand{\cftsubsecfont}
-{\color{ReportSubtitle}}
-
-\renewcommand{\cftsubsecpagefont}
-{\color{ReportGold}}
-
-
-
-% Separación
-\setlength{\cftbeforesecskip}{8pt}
-\setlength{\cftbeforesubsecskip}{4pt}
-
-
-% Línea punteada
 \renewcommand{\cftdotsep}{2}
+\setlength{\cftbeforesecskip}{8pt}
+
+
+
+%==================================================
+% COLORES CUERPO DEL INFORME
+%==================================================
+
+\definecolor{SidebarGray}{HTML}{2B2B2B}
+\definecolor{HeaderGray}{HTML}{E4E4E4}
+\definecolor{PageNumberBlack}{HTML}{111111}
+
+
+%==================================================
+% BANDA LATERAL IZQUIERDA
+%==================================================
+
+\newlength{\SidebarWidth}
+
+\setlength{\SidebarWidth}{2.5cm}
+
+
+\AddToShipoutPictureBG{
+
+\begin{tikzpicture}[remember picture,overlay]
+
+% Banda gris oscuro izquierda
+
+\fill[SidebarGray]
+(current page.north west)
+rectangle
+($(current page.south west)+(\SidebarWidth,0)$);
+
+
+% Línea dorada interior
+
+\fill[ThemeGold]
+($(current page.north west)+(\SidebarWidth,0)$)
+rectangle
+($(current page.south west)+(\SidebarWidth-1.5pt,0)$);
+
+
+\end{tikzpicture}
+
+}
+
+
+
+%==================================================
+% ENCABEZADO EJECUTIVO
+%==================================================
+
+\pagestyle{empty}      % No usar encabezados de fancyhdr
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\AddToShipoutPictureBG{
+
+\begin{tikzpicture}[remember picture,overlay]
+
+%--------------------------------------------------
+% FRANJA SUPERIOR
+%--------------------------------------------------
+
+\fill[HeaderGray]
+(current page.north west)
+rectangle
+($(current page.north east)+(0,-2.5cm)$);
+
+% Línea dorada inferior
+
+\fill[ThemeGold]
+($(current page.north west)+(0,-2.5cm)$)
+rectangle
+($(current page.north east)+(0,-2.55cm)$);
+
+%--------------------------------------------------
+% TEXTO IZQUIERDA
+%--------------------------------------------------
+
+\node[
+anchor=west,
+font=\bfseries\large,
+text=ReportHeading
+]
+at
+($(current page.north west)+(3.5cm,-1.5cm)$)
+{
+\TituloCaso
+};
+
+%--------------------------------------------------
+% TEXTO DERECHA
+%--------------------------------------------------
+
+\node[
+anchor=east,
+font=\large,
+text=ReportSubtitle
+]
+at
+($(current page.north east)+(-1cm,-1.5cm)$)
+{
+\SubtituloSector
+};
+%==================================================
+% ESQUINA DORADA
+%==================================================
+
+\fill[ThemeGold]
+(current page.north west)
+rectangle
+($(current page.north west)+(3cm,-3cm)$);
+
+\end{tikzpicture}
+
+}
+
+%==================================================
+% NUMERO DE PAGINA
+%==================================================
+
+\AddToShipoutPictureFG{
+
+\ifPortada
+% No dibujar nada
+\else
+
+\begin{tikzpicture}[remember picture,overlay]
+
+\node[
+anchor=south east,
+fill=ThemeGold,
+minimum width=1.75cm,
+minimum height=1.75cm,
+text=PageNumberBlack,
+font=\fontsize{25}{20}\selectfont\bfseries
+]
+at ($(current page.south east)+(-0.2cm,0.2cm)$)
+{
+\thepage
+};
+
+\end{tikzpicture}
+
+\fi
+
+}
+
+\renewcommand{\footrulewidth}{0pt}
+

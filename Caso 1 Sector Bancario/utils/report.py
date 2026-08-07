@@ -289,6 +289,7 @@ def generar_reporte():
     limpiar_build()
 
     compilar_latex()
+    compilar_latex()
 
     if not mover_pdf():
         return

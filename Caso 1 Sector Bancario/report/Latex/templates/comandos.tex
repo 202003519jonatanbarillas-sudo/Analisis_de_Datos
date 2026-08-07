@@ -75,3 +75,22 @@
 \end{table}
 \bigskip
 }
+
+
+%==================================================
+% CAPÍTULO PERSONALIZADO
+%==================================================
+
+\newcommand{\ReportChapter}[1]
+{
+
+\refstepcounter{chapter}
+
+\addcontentsline{toc}{chapter}
+{
+\numberline{\thechapter}#1
+}
+
+\ReportTitle{#1}
+
+}
