@@ -1,0 +1,241 @@
+%==================================================
+% ESTILOS.STY - Luxury Executive Report
+%==================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{estilos}[2026/08/07 Luxury Executive Report]
+
+% Variable para control de portada
+\newif\ifPortada
+\Portadatrue
+
+%==================================================
+% 1. PAQUETES REQUERIDOS
+%==================================================
+
+% Herramientas base y programación
+\RequirePackage{ifthen}
+
+% Diseño de página y encabezados
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{eso-pic}
+
+% Gráficos y colores
+\RequirePackage{xcolor}
+\RequirePackage{colortbl}
+\RequirePackage{graphicx}
+\RequirePackage{adjustbox}
+\RequirePackage{tikz}
+\usetikzlibrary{calc}
+
+% Tipografía y espaciado
+\RequirePackage{fontspec}
+\RequirePackage{setspace}
+\RequirePackage{titlesec}
+\RequirePackage{tocloft}
+
+% Tablas, listas y matemáticas
+\RequirePackage{booktabs}
+\RequirePackage{tabularx}
+\RequirePackage{longtable}
+\RequirePackage{array}
+\RequirePackage{enumitem}
+\RequirePackage{amssymb}
+
+% Flotantes y leyendas
+\RequirePackage{float}
+\RequirePackage{caption}
+
+%==================================================
+% 2. PALETA DE COLORES CENTRALIZADA (Market Dark)
+%==================================================
+
+% -- Tema Market Dark (Portada) --
+\definecolor{ThemeBackground}{HTML}{0A0A0A}      % BACKGROUND (Fondo principal casi negro)
+\definecolor{ThemeBackgroundLight}{HTML}{171717} % PANEL (Gris muy oscuro)
+\definecolor{ThemeGold}{HTML}{3B82F6}            % ACCENT (Azul para reemplazar el dorado)
+\definecolor{ThemeGoldDark}{HTML}{374151}        % GRID (Gris azulado oscuro)
+\definecolor{ThemeGoldLight}{HTML}{4B5563}       % BORDER (Gris medio)
+\definecolor{ThemeTitle}{HTML}{F8FAFC}           % TEXT (Blanco humo para títulos)
+\definecolor{ThemeSubtitle}{HTML}{CBD5E1}        % TEXT_SOFT (Gris claro)
+\definecolor{ThemeText}{HTML}{F8FAFC}            % TEXT
+\definecolor{ThemeMuted}{HTML}{4B5563}           % BORDER
+
+% -- Tema Documento Blanco (Interior) --
+\definecolor{ReportHeading}{HTML}{171717}        % PANEL (Gris muy oscuro para titulares)
+\definecolor{ReportGold}{HTML}{3B82F6}           % ACCENT (Viñetas y detalles en azul)
+\definecolor{ReportSubtitle}{HTML}{4B5563}       % BORDER (Gris medio para subtítulos)
+\definecolor{ReportText}{HTML}{0A0A0A}           % BACKGROUND (Casi negro para texto de lectura)
+\definecolor{ReportLine}{HTML}{3B82F6}           % ACCENT (Líneas divisorias azules)
+\definecolor{ReportBox}{HTML}{F8FAFC}            % TEXT (Blanco humo para el fondo de la caja ejecutiva)
+
+% -- Elementos Estructurales (Barras y Encabezados) --
+\definecolor{SidebarGray}{HTML}{0A0A0A}          % BACKGROUND (Banda lateral oscura)
+\definecolor{HeaderGray}{HTML}{F8FAFC}           % TEXT (Franja superior blanca/gris muy claro)
+\definecolor{PageNumberBlack}{HTML}{F8FAFC}      % TEXT (Blanco para contrastar sobre el cuadro azul)
+
+%==================================================
+% 3. CONFIGURACIÓN DE PÁGINA Y GEOMETRÍA
+%==================================================
+
+\geometry{
+    letterpaper,
+    left=3.5cm,
+    right=2.5cm,
+    top=3.5cm,
+    bottom=2.5cm,
+    headheight=42pt,
+    headsep=0.5cm
+}
+
+% Limpieza del estilo de página por defecto
+\pagestyle{empty}      
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%==================================================
+% 4. TIPOGRAFÍA Y ESPACIADO GENERAL
+%==================================================
+
+\setmainfont{Arial}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\setstretch{1.15}
+
+%==================================================
+% 5. COMANDOS PERSONALIZADOS
+%==================================================
+
+% -- Título Principal de Sección --
+\newcommand{\ReportTitle}[1]{
+    \vspace{0.5cm}
+    {\Huge \bfseries \color{ReportHeading} #1 \par}
+    \vspace{0.25cm}
+    {\color{ReportLine} \rule{8cm}{1.2pt}}
+    \vspace{1cm}
+}
+
+% -- Título de Subsección --
+\newcommand{\SectionTitle}[1]{
+    \vspace{0.8cm}
+    {\Large \bfseries \color{ReportHeading} #1 \par}
+    \vspace{0.2cm}
+    {\color{ReportLine} \rule{\linewidth}{0.5pt}}
+    \vspace{0.5cm}
+}
+
+% -- Caja Ejecutiva --
+\newcommand{\ExecutiveNote}[1]{
+    \begin{tikzpicture}
+    \node[
+        fill=ReportBox,
+        draw=ReportLine,
+        rounded corners=3pt,
+        line width=.6pt,
+        inner sep=12pt,
+        text width=.95\linewidth
+    ]
+    {
+        {\bfseries \color{ReportHeading} Nota Ejecutiva}
+        \vspace{0.3cm}
+        {\color{ReportText} \par #1}
+    };
+    \end{tikzpicture}
+    \vspace{0.5cm}
+}
+
+% -- Lista Metodológica --
+\newcommand{\MethodItem}[1]{
+    {\color{ReportGold} $\blacktriangleright$}
+    \hspace{0.5em}
+    {\color{ReportText} #1}
+    \vspace{0.25cm}
+}
+
+%==================================================
+% 6. CONFIGURACIÓN DEL ÍNDICE (TOC)
+%==================================================
+
+\renewcommand{\contentsname}{Contenido}
+
+% Título del índice
+\renewcommand{\cfttoctitlefont}{\Huge \bfseries \color{ReportHeading}}
+\renewcommand{\cftaftertoctitle}{
+    \vspace{0.3cm}
+    {\color{ReportLine} \rule{8cm}{1.2pt}}
+    \vspace{0.8cm}
+}
+
+% Capítulos en el índice
+\renewcommand{\cftchapfont}{\large \bfseries \color{ReportText}}
+\renewcommand{\cftchappagefont}{\large \color{ReportGold}}
+\setlength{\cftbeforechapskip}{10pt}
+
+% Secciones en el índice
+\renewcommand{\cftsecfont}{\large \bfseries \color{ReportText}}
+\renewcommand{\cftsecpagefont}{\large \color{ReportGold}}
+\renewcommand{\cftdotsep}{2}
+\setlength{\cftbeforesecskip}{8pt}
+
+%==================================================
+% 7. ELEMENTOS DE FONDO Y ENCABEZADOS (LAYOUT)
+%==================================================
+
+\newlength{\SidebarWidth}
+\setlength{\SidebarWidth}{2.5cm}
+
+% -- Banda Lateral y Encabezado Ejecutivo (Fondo) --
+\AddToShipoutPictureBG{
+    \begin{tikzpicture}[remember picture,overlay]
+        % 1. Banda lateral gris oscuro izquierda
+        \fill[SidebarGray] (current page.north west) rectangle ($(current page.south west)+(\SidebarWidth,0)$);
+
+        % 2. Línea dorada interior (Banda lateral)
+        \fill[ThemeGold] ($(current page.north west)+(\SidebarWidth,0)$) rectangle ($(current page.south west)+(\SidebarWidth-1.5pt,0)$);
+
+        % 3. Franja superior gris (Encabezado)
+        \fill[HeaderGray] (current page.north west) rectangle ($(current page.north east)+(0,-2.5cm)$);
+
+        % 4. Línea dorada inferior (Encabezado)
+        \fill[ThemeGold] ($(current page.north west)+(0,-2.5cm)$) rectangle ($(current page.north east)+(0,-2.55cm)$);
+
+        % 5. Esquina dorada superior izquierda
+        \fill[ThemeGold] (current page.north west) rectangle ($(current page.north west)+(3cm,-3cm)$);
+
+        % 6. Texto Encabezado Izquierda (Asume que \TituloCaso está definido en el documento principal)
+        \node[anchor=west, font=\bfseries\large, text=ReportHeading] 
+            at ($(current page.north west)+(3.5cm,-1.5cm)$) {\TituloCaso};
+
+        % 7. Texto Encabezado Derecha (Asume que \SubtituloSector está definido en el documento principal)
+        \node[anchor=east, font=\large, text=ReportSubtitle] 
+            at ($(current page.north east)+(-1cm,-1.5cm)$) {\SubtituloSector};
+    \end{tikzpicture}
+}
+
+% -- Número de Página (Primer plano) --
+\AddToShipoutPictureFG{
+    \ifPortada
+        % No dibujar número de página si es portada
+    \else
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[
+                anchor=south east,
+                fill=ThemeGold,
+                minimum width=1.75cm,
+                minimum height=1.75cm,
+                text=PageNumberBlack,
+                font=\fontsize{25}{20}\selectfont\bfseries
+            ]
+            at ($(current page.south east)+(-0.2cm,0.2cm)$)
+            {\thepage};
+        \end{tikzpicture}
+    \fi
+}
+
+%==================================================
+% 8. HYPERREF (Debe ser SIEMPRE el último paquete)
+%==================================================
+
+\RequirePackage[hidelinks]{hyperref}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  6 AUG 2026 19:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.7.31)  7 AUG 2026 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1025,24 +1025,24 @@ ort\latex\build\main.out)
 
 File: ../../../charts/portada_grafica.png Graphic file (type bmp)
 <../../../charts/portada_grafica.png>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150
 .
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150
 .
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (13.80367pt too wide) in paragraph at lines 175--176
+Overfull \hbox (13.80367pt too wide) in paragraph at lines 173--174
 [][] 
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 188--188
+Underfull \hbox (badness 4048) in paragraph at lines 186--186
 []\TU/Arial(0)/m/n/13 Evaluación del comportamiento financiero, indicadores
  []
 

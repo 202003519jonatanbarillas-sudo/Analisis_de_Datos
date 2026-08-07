@@ -1,0 +1,11 @@
+\contentsline {chapter}{ \hbox to\@tempdima {1\hfil }Resumen Ejecutivo }{i}{chapter.1}%
+\contentsline {chapter}{ \hbox to\@tempdima {2\hfil }Introducción }{1}{chapter.2}%
+\contentsline {chapter}{ \hbox to\@tempdima {3\hfil }Objetivos del Análisis }{2}{chapter.3}%
+\contentsline {chapter}{ \hbox to\@tempdima {4\hfil }Metodología }{3}{chapter.4}%
+\contentsline {chapter}{ \hbox to\@tempdima {5\hfil }Descripción del Conjunto de Datos }{5}{chapter.5}%
+\contentsline {chapter}{ \hbox to\@tempdima {6\hfil }Preparación y Transformación de los Datos }{7}{chapter.6}%
+\contentsline {chapter}{ \hbox to\@tempdima {7\hfil }Validación del Dataset }{9}{chapter.7}%
+\contentsline {chapter}{ \hbox to\@tempdima {8\hfil }Resultados del Análisis }{11}{chapter.8}%
+\contentsline {chapter}{ \hbox to\@tempdima {9\hfil }Conclusiones }{21}{chapter.9}%
+\contentsline {chapter}{ \hbox to\@tempdima {10\hfil }Recomendaciones }{22}{chapter.10}%
+\contentsline {chapter}{ \hbox to\@tempdima {11\hfil }Anexos }{23}{chapter.11}%

@@ -1,0 +1,163 @@
+\documentclass[letterpaper,12pt]{report}
+
+%===============================
+% ESTILOS
+%===============================
+
+\usepackage{estilos}
+
+
+%===============================
+% CONFIGURACIÓN
+%===============================
+
+\input{variables}
+\input{comandos}
+\input{encabezado}
+
+
+\begin{document}
+
+
+%===============================
+% PORTADA
+%===============================
+
+\pagenumbering{gobble}
+
+\input{sections/portada}
+
+\Portadafalse
+
+\clearpage
+
+
+
+%===============================
+% PÁGINAS PRELIMINARES
+%===============================
+
+\pagenumbering{roman}
+
+\input{sections/resumen}
+
+\clearpage
+
+
+\thispagestyle{empty}
+
+\tableofcontents
+
+\clearpage
+
+
+
+%===============================
+% INFORME PRINCIPAL
+%===============================
+
+\pagenumbering{arabic}
+
+\setcounter{page}{1}
+
+
+
+%-------------------------------
+% INTRODUCCIÓN
+%-------------------------------
+
+\input{sections/introduccion}
+
+\clearpage
+
+
+
+%-------------------------------
+% OBJETIVOS
+%-------------------------------
+
+\input{sections/objetivos}
+
+\clearpage
+
+
+
+%-------------------------------
+% METODOLOGÍA
+%-------------------------------
+
+\input{sections/metodologia}
+
+\clearpage
+
+
+
+%-------------------------------
+% DESCRIPCIÓN DEL DATASET
+%-------------------------------
+
+\input{sections/dataset}
+
+\clearpage
+
+
+
+%-------------------------------
+% PREPARACIÓN Y TRANSFORMACIÓN
+%-------------------------------
+
+\input{sections/preparacion}
+
+\clearpage
+
+
+
+%-------------------------------
+% VALIDACIÓN DEL DATASET
+%-------------------------------
+
+\input{sections/validacion}
+
+\clearpage
+
+
+
+%-------------------------------
+% RESULTADOS DEL ANÁLISIS
+%-------------------------------
+
+\input{sections/resultados}
+
+\clearpage
+
+
+
+%-------------------------------
+% CONCLUSIONES
+%-------------------------------
+
+\input{sections/conclusiones}
+
+\clearpage
+
+
+
+%-------------------------------
+% RECOMENDACIONES
+%-------------------------------
+
+\input{sections/recomendaciones}
+
+\clearpage
+
+
+
+%-------------------------------
+% ANEXOS
+%-------------------------------
+
+\input{sections/anexos}
+
+
+
+\end{document}

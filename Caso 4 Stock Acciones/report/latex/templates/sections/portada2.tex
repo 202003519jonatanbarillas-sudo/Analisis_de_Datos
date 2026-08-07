@@ -1,0 +1,201 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../variables}
+\usepackage{../estilos}
+
+\begin{document}
+
+\newgeometry{
+left=0cm,
+right=0cm,
+top=0cm,
+bottom=0cm,
+headheight=0pt,
+headsep=0pt}
+
+\thispagestyle{empty}
+
+\begin{titlepage}
+
+%==================================================
+% FONDO
+%==================================================
+\begin{tikzpicture}[remember picture,overlay]
+
+% Fondo
+\path[
+shade,
+top color=ThemeBackground,
+bottom color=ThemeBackgroundLight
+]
+(current page.north west)
+rectangle
+(current page.south east);
+
+% Marca de agua
+\node[opacity=0.08]
+at ($(current page.center)+(0,-2.5cm)$)
+{
+\includegraphics[
+width=0.85\paperwidth,
+clip,
+trim=5mm 5mm 5mm 5mm
+]{portada_grafica.png}
+};
+
+%==================================================
+% ESQUINA SUPERIOR DERECHA
+%==================================================
+\begin{scope}[shift={(current page.north east)}]
+
+\fill[ThemeMuted,opacity=.15]
+(0,0)--(-6,0)--(0,-6)--cycle;
+
+\fill[ThemeGold,opacity=.06]
+(0,0)--(-6,0)--(0,-6)--cycle;
+
+\fill[ThemeGold,opacity=.12]
+(0,0)--(-4.8,0)--(0,-4.8)--cycle;
+
+\fill[ThemeGold,opacity=.22]
+(0,0)--(-3.2,0)--(0,-3.2)--cycle;
+
+\foreach \i in {1,...,6}{
+\draw[ThemeGold,line width=.9pt,opacity=.55]
+(-\i,0)--(0,-\i);
+}
+
+\foreach \i in {0.5,1.5,...,5.5}{
+\draw[ThemeMuted,line width=.35pt,opacity=.25]
+(-\i,0)--(0,-\i);
+}
+
+\draw[ThemeGold,line width=1.6pt]
+(-6,0)--(0,0)--(0,-6);
+
+\end{scope}
+
+%==================================================
+% ESQUINA INFERIOR IZQUIERDA
+%==================================================
+\begin{scope}[shift={(current page.south west)}]
+
+\fill[ThemeMuted,opacity=.15]
+(0,0)--(6,0)--(0,6)--cycle;
+
+\fill[ThemeGoldDark,opacity=.06]
+(0,0)--(6,0)--(0,6)--cycle;
+
+\fill[ThemeGoldDark,opacity=.12]
+(0,0)--(4.8,0)--(0,4.8)--cycle;
+
+\fill[ThemeGold,opacity=.22]
+(0,0)--(3.2,0)--(0,3.2)--cycle;
+
+\foreach \i in {1,...,6}{
+\draw[ThemeGold,line width=.9pt,opacity=.55]
+(\i,0)--(0,\i);
+}
+
+\foreach \i in {0.5,1.5,...,5.5}{
+\draw[ThemeMuted,line width=.35pt,opacity=.25]
+(\i,0)--(0,\i);
+}
+
+\draw[ThemeGold,line width=1.6pt]
+(6,0)--(0,0)--(0,6);
+
+\end{scope}
+
+%==================================================
+% MARCO
+%==================================================
+\draw[ThemeGold,line width=.8pt]
+($(current page.north west)+(1cm,-1cm)$)
+rectangle
+($(current page.south east)+(-1cm,1cm)$);
+
+%==================================================
+% AUTOR
+%==================================================
+\node[
+anchor=south east,
+align=right
+]
+at ($(current page.south east)+(-1.5cm,5cm)$)
+{
+\[0.2em]
+{\large\color{ThemeSubtitle}\Autor}
+};
+
+
+%==================================================
+% FECHA
+%==================================================
+\node[
+anchor=south
+]
+at ($(current page.south)+(0,2.5cm)$)
+{
+{\large\color{ThemeMuted}\Fecha}
+};
+
+\end{tikzpicture}
+
+%==================================================
+% CONTENIDO
+%==================================================
+
+\vspace*{3.5cm}
+\hspace*{2.2cm}
+
+\hfill
+\begin{minipage}{6cm}
+{\fontsize{25}{30}\selectfont
+\color{ThemeGold}
+\textbf{\TituloCaso}}
+\end{minipage}
+
+
+\vspace*{3.5cm}
+
+\hspace*{1cm}
+\begin{minipage}{12cm}
+
+{\fontsize{35}{52}\selectfont
+\bfseries
+\color{ThemeTitle}
+\TituloPrincipal\par}
+
+\vspace{0.4cm}
+
+{\fontsize{28}{34}\selectfont
+\bfseries
+\color{ThemeSubtitle}
+\SubtituloSector\par}
+
+\vspace{0.5cm}
+
+\tikz\draw[ThemeGold,line width=1pt]
+(0,0)--(4.5cm,0);
+
+\vspace{0.5cm}
+
+{\Large
+\bfseries
+\color{ThemeGoldLight}
+\SubtituloSeccion\par}
+
+\vspace{0.4cm}
+
+{\fontsize{13}{18}\selectfont
+\color{ThemeText}
+\Descripcion\par}
+
+\end{minipage}
+
+\end{titlepage}
+
+\restoregeometry
+
+\end{document}

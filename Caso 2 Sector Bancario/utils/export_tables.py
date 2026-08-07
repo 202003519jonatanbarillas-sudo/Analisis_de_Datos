@@ -1,62 +1,187 @@
 import os
 import pandas as pd
 
-# Function Dataframes 
 
 def guardar_tabla(df: pd.DataFrame, nombre: str, output_dir: str = "tables") -> None:
-  """Toma un DataFrame de Pandas, aplica el formato de vista previa tipo Jupyter
+    """
+    Exporta un DataFrame a LaTeX con estilo ejecutivo:
+    - Cabecera negra con texto dorado.
+    - Cuerpo limpio.
+    - Nota metodológica inferior.
+    """
 
-  (si es muy grande) o completo (si es pequeño), y exporta un archivo .tex
-  con formato profesional usando booktabs.
-  """
-  os.makedirs(output_dir, exist_ok=True)
-  total_filas, total_cols = df.shape
-  limite_visualizacion = 10 
+    os.makedirs(output_dir, exist_ok=True)
 
-  if total_filas > limite_visualizacion:
-    puntos = pd.DataFrame([["..."] * total_cols], columns=df.columns, index=["..."])
-    df_mostrar = pd.concat([df.head(5), puntos, df.tail(5)])
-  else:
-    df_mostrar = df.copy()
+    total_filas, total_cols = df.shape
+    limite_visualizacion = 10
 
-  latex_str = df_mostrar.to_latex(index=True, escape=True, column_format="l" + "c" * total_cols, float_format="%.2f")
 
-  if total_filas > limite_visualizacion:
-    pie_nota = (
-        f"\\smallskip\\textit{{Mostrando las primeras 5 y últimas 5 filas"
-        f" de un total de {total_filas:,} registros $\\times$ {total_cols}"
-        " variables.}}"
+    #------------------------------------------
+    # Reducir tabla si es demasiado grande
+    #------------------------------------------
+
+    if total_filas > limite_visualizacion:
+
+        puntos = pd.DataFrame(
+            [["..."] * total_cols],
+            columns=df.columns,
+            index=["..."]
+        )
+
+        df_mostrar = pd.concat(
+            [
+                df.head(5),
+                puntos,
+                df.tail(5)
+            ]
+        )
+
+    else:
+
+        df_mostrar = df.copy()
+
+
+
+    #------------------------------------------
+    # Formato columnas
+    #------------------------------------------
+
+    formato_cols = "l" * total_cols
+
+
+
+    #------------------------------------------
+    # Exportar LaTeX
+    #------------------------------------------
+
+    latex_str = df_mostrar.to_latex(
+        index=False,
+        escape=True,
+        float_format="%.2f",
+        column_format=formato_cols,
+        longtable=False
     )
-  else:
-    pie_nota = (
-        f"\\smallskip\\textit{{Conjunto completo de datos: {total_filas:,}"
-        f" registros $\\times$ {total_cols} variables.}}"
-    )
 
-  contenido_final = f"""% Archivo generado automáticamente. No editar a mano.
+
+
+    #------------------------------------------
+    # Estilo cabecera tabla
+    #------------------------------------------
+
+    lineas = latex_str.splitlines()
+    
+    for i, linea in enumerate(lineas):
+    
+        if "\\toprule" in linea:
+    
+            cabecera = lineas[i+1]
+    
+            columnas = cabecera.replace("\\\\", "").split("&")
+    
+            cabecera_formateada = (
+                "\\rowcolor{ThemeBackground}\n"
+                "\\rule{0pt}{0.45cm}\n"
+                +
+                " & ".join(
+                    [
+                        "\\textcolor{ThemeGold}{\\bfseries "
+                        + col.strip()
+                        + "}"
+                        for col in columnas
+                    ]
+                )
+                +
+                " \\\\"
+            )
+    
+            lineas[i] = ""
+
+            lineas[i+1] = cabecera_formateada
+    
+            break
+    
+    
+    latex_str = "\n".join(lineas)
+    
+    latex_str = latex_str.replace("\\midrule", "")
+    nombre_limpio = nombre.replace("_", " ").title()
+
+
+
+    #------------------------------------------
+    # Nota inferior
+    #------------------------------------------
+
+    if total_filas > limite_visualizacion:
+
+        pie_nota = (
+            f"\\vspace{{0.15cm}}\n"
+            f"{{\\raggedright\\sffamily\\footnotesize"
+            f"\\color{{ThemeMuted}}\n"
+            f"\\textit{{Nota: Se muestran las primeras y últimas 5 filas. "
+            f"Conjunto completo: {total_filas:,} registros "
+            f"$\\times$ {total_cols} variables.}}}}"
+        )
+
+    else:
+
+        pie_nota = (
+            f"\\vspace{{0.15cm}}\n"
+            f"{{\\raggedright\\sffamily\\footnotesize"
+            f"\\color{{ThemeMuted}}\n"
+            f"\\textit{{Nota: Conjunto completo de datos "
+            f"({total_filas:,} registros "
+            f"$\\times$ {total_cols} variables).}}}}"
+        )
+
+
+
+    #------------------------------------------
+    # Archivo TEX final
+    #------------------------------------------
+
+    contenido_final = f"""
+% Archivo generado automáticamente. No editar manualmente.
+
 \\begin{{table}}[htbp]
+
 \\centering
+
 \\begin{{adjustbox}}{{max width=\\textwidth}}
-{latex_str}
+
+{latex_str.strip()}
+
 \\end{{adjustbox}}
-\\caption{{Resultado de la variable: \\texttt{{{nombre}}}}}
-\\label{{tab:{nombre}}}
+
 {pie_nota}
+
 \\end{{table}}
 """
-  ruta_archivo = os.path.join(output_dir, f"{nombre}.tex")
-  with open(ruta_archivo, "w", encoding="utf-8") as f:
-    f.write(contenido_final)
 
-  print(
-      f"-> Tabla '{nombre}.tex' exportada con éxito en la carpeta"
-      f" '{output_dir}/'."
-  )
+
+
+    ruta_archivo = os.path.join(
+        output_dir,
+        f"{nombre}.tex"
+    )
+
+
+    with open(
+        ruta_archivo,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        f.write(contenido_final)
+
+
+
+    print(
+        f"-> Tabla '{nombre}.tex' exportada correctamente en '{output_dir}/'."
+    )
+
 
 def exportar_tablas(TABLES: dict, output_dir: str = "../tables") -> None:
-    """
-    Exporta todos los DataFrames almacenados en un diccionario.
-    """
 
     for nombre, df in TABLES.items():
 
@@ -66,4 +191,7 @@ def exportar_tablas(TABLES: dict, output_dir: str = "../tables") -> None:
             output_dir=output_dir
         )
 
-    print("Todas las tablas fueron exportadas correctamente.")
+
+    print(
+        "Todas las tablas fueron exportadas con el estilo institucional."
+    )
