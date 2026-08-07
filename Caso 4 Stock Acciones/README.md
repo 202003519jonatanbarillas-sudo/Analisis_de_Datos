@@ -1,4 +1,4 @@
-# Caso 4 - Análisis del Rendimiento de las Empresas con Mayor Capitalización Bursátil (2018–2023) (Pendiente de implementar automatizacion del informe)
+# Caso 4 - Análisis del Rendimiento de las Empresas con Mayor Capitalización Bursátil (2018–2023) 
 
 ## Descripción
 

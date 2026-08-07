@@ -1,4 +1,4 @@
-# Caso 1 - Análisis del Comportamiento de los Saldos Bancarios durante 2025 (Pendiente de implementar automatizacion del informe)
+# Caso 1 - Análisis del Comportamiento de los Saldos Bancarios durante 2025 
 
 ## Descripción
 

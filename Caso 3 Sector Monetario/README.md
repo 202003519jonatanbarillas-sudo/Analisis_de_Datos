@@ -1,4 +1,4 @@
-# Caso 3 - Análisis de la Evolución de los Indicadores Monetarios y Financieros de Guatemala (2015–2025) (Pendiente de implementar automatizacion del informe)
+# Caso 3 - Análisis de la Evolución de los Indicadores Monetarios y Financieros de Guatemala (2015–2025)
 
 ## Descripción
 

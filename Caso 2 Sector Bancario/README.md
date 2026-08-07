@@ -1,4 +1,4 @@
-# Caso 2 - Análisis de los Factores Asociados a la Mora Crediticia (Pendiente de implementar automatizacion del informe)
+# Caso 2 - Análisis de los Factores Asociados a la Mora Crediticia 
 
 ## Descripción
 
