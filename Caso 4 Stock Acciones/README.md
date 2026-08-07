@@ -106,20 +106,6 @@ Como resultado del proceso automatizado se genera un informe técnico en formato
 
 El informe se construye automáticamente utilizando una plantilla desarrollada en LaTeX.
 
----
-
-# Informe generado
-
-Como resultado del proceso automatizado se genera un informe técnico en formato PDF que documenta:
-
-- El contexto y objetivo del caso de estudio.
-- La metodología empleada.
-- La preparación y transformación de los datos.
-- El análisis desarrollado para cada pregunta de negocio.
-- Las conclusiones y recomendaciones finales.
-
-El informe se construye automáticamente utilizando una plantilla desarrollada en LaTeX.
-
 > ⚠️ **Nota sobre el informe PDF:** Este proyecto fue desarrollado con fines educativos y el motor de automatización de textos en LaTeX se encuentra en fase de mejora continua. Por tal motivo, el documento generado podría presentar algunos errores de redacción, textos repetidos o detalles de formato (espaciados, estructuración de títulos) que aún están siendo optimizados para alcanzar un estándar completamente profesional.
 
 ---
